@@ -2,7 +2,7 @@
 This is a two-page (double-sided) character sheet designed to help solve common issues that periodically occur during my D&D games (such as "What is my spell save DC again?", "Is this a concentration spell?", and "How are you carrying all that?"). This character sheet features math reminders and helpful check-boxes, as well as a tweaked encumbrance system that should make carrying equipment more fun and require less book-keeping.
 
 ## Instructions
-Download the PDF from the releases page and print it such that the first two pages of the PDF are on the fron and back of sheet 1 and the second two pages are the font and back of sheet 2 (double-sided printing). 
+Download the PDF from the releases page and print it such that the first two pages of the PDF are on the front and back of sheet 1 and the second two pages are the front and back of sheet 2 (double-sided printing). 
 
 ## New Encumbrance System
 The goal of the new encumbrance system, described in the box on the bottom of page 1B (back-side of the first sheet), is two-fold: **A)** Encourage the players to think about how they carry their equipment, and **B)** make encumbrance rules enforcable without using a calculator to add up the weight of all items.
