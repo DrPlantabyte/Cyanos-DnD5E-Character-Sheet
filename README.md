@@ -1,6 +1,9 @@
 # DrCyano's D&D 5E Character Sheet
 This is a two-page (double-sided) character sheet designed to help solve common issues that periodically occur during my D&D games (such as "What is my spell save DC again?", "Is this a concentration spell?", and "How are you carrying all that?"). This character sheet features math reminders and helpful check-boxes, as well as a tweaked encumbrance system that should make carrying equipment more fun and require less book-keeping.
 
+## Preview
+![cch_dnd-character-sheet_preview](https://cloud.githubusercontent.com/assets/1922739/17665246/bf1dbd26-62c7-11e6-9177-439eb1201bfd.png)
+
 ## Instructions
 Download the PDF from the releases page and print it such that the first two pages of the PDF are on the front and back of sheet 1 and the second two pages are the front and back of sheet 2 (double-sided printing). 
 
@@ -19,6 +22,3 @@ This character sheet is intended to be printed as two double-sided sheets. The e
 Pg1-A and Pg1-B are the front and back of the first sheet, respectively.
 
 Pg2-A and Pg2-B are the front and back of the second sheet, respectively. Only character who cast spells need this sheet.
-
-## Preview
-![cch_dnd-character-sheet_preview](https://cloud.githubusercontent.com/assets/1922739/17665246/bf1dbd26-62c7-11e6-9177-439eb1201bfd.png)
