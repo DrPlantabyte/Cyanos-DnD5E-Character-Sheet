@@ -19,3 +19,6 @@ This character sheet is intended to be printed as two double-sided sheets. The e
 Pg1-A and Pg1-B are the front and back of the first sheet, respectively.
 
 Pg2-A and Pg2-B are the front and back of the second sheet, respectively. Only character who cast spells need this sheet.
+
+## Preview
+![cch_dnd-character-sheet_preview](https://cloud.githubusercontent.com/assets/1922739/17665246/bf1dbd26-62c7-11e6-9177-439eb1201bfd.png)
