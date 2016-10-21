@@ -71,12 +71,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.6363961"
-     inkscape:cx="312.71641"
-     inkscape:cy="419.17977"
+     inkscape:zoom="1.8"
+     inkscape:cx="567.86875"
+     inkscape:cy="672.06085"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="mm"
      inkscape:snap-text-baseline="true"
      inkscape:window-width="1440"
@@ -2853,7 +2853,7 @@
        style="opacity:0.35;fill:url(#linearGradient6765);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 548.75592,237.85824 46.51969,0"
+       d="m 548.75592,239.85824 46.51969,0"
        id="path4705-08-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -2861,24 +2861,24 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="605.90552"
-       y="248.48816"
+       y="250.48816"
        id="text4176-4-6-3-7"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6817"
          x="605.90552"
-         y="248.48816">Armor</tspan></text>
+         y="250.48816">Armor</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="546.12598"
-       y="239.85825"
+       y="237.85825"
        id="text4176-4-1-9"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6813"
          x="546.12598"
-         y="239.85825">AC:</tspan></text>
+         y="237.85825">AC:</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -2889,7 +2889,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path6819"
-       d="m 605.90553,237.85824 112.92914,0"
+       d="m 605.90553,239.85824 112.92914,0"
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
@@ -3079,11 +3079,11 @@
          sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-2-9-1"
          y="393.30704"
-         x="680.315"
+         x="690.315"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="393.30704"
-           x="680.315"
+           x="690.315"
            id="tspan7125"
            sodipodi:role="line">Atk. Mod.</tspan></text>
       <text
