@@ -26,11 +26,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="438.74064"
-     inkscape:cy="304.2308"
+     inkscape:cx="509.32587"
+     inkscape:cy="191.0729"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      units="mm"
      inkscape:snap-text-baseline="true"
      inkscape:window-width="1440"
@@ -951,13 +951,13 @@
        id="text4176-4-963-4-2"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan4870"
+         id="tspan14616"
          x="265.74805"
-         y="1029.1023">                       Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
+         y="1029.1023">                      Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
          sodipodi:role="line"
-         id="tspan4872"
+         id="tspan14618"
          x="265.74805"
-         y="1041.6023">skill checks, attack rolls, and Dexterity saving throws.</tspan></text>
+         y="1041.6023">skill checks, attack rolls, and saving throws.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2523,5 +2523,16 @@
        id="path4916"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="731.4646"
+       y="1046.3622"
+       id="text4176-4-96-4-2"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan16041"
+         x="731.4646"
+         y="1046.3622">Page 1-B</tspan></text>
   </g>
 </svg>
