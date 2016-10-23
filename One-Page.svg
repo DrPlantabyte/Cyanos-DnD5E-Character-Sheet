@@ -72,8 +72,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="355.80119"
-     inkscape:cy="545.39902"
+     inkscape:cx="181.85292"
+     inkscape:cy="375.69339"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -103,7 +103,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -183,8 +183,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-95.669248)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-95.669248)">
     <g
        id="g11276"
        transform="translate(6.4627413e-8,-6.629925)">
@@ -1687,12 +1686,10 @@
          id="text4176-4-963-5-37"
          y="1290.8503"
          x="903.54333"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          xml:space="preserve"><tspan
-           y="1290.8503"
-           x="903.54333"
-           id="tspan9314"
-           sodipodi:role="line">Equiment</tspan></text>
+           sodipodi:role="line"
+           id="tspan5816">Equipment</tspan></text>
       <g
          transform="translate(444.4567,126.92929)"
          id="g9291">
