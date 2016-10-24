@@ -23,7 +23,7 @@
        inkscape:collect="always"
        id="Scroll-Fill">
       <stop
-         style="stop-color:#c3c3c3;stop-opacity:1"
+         style="stop-color:#d7d7d7;stop-opacity:1"
          offset="0"
          id="stop6961" />
       <stop
@@ -35,7 +35,7 @@
          offset="0.89999998"
          id="stop4707" />
       <stop
-         style="stop-color:#c3c3c3;stop-opacity:1"
+         style="stop-color:#d7d7d7;stop-opacity:1"
          offset="1"
          id="stop6963" />
     </linearGradient>
@@ -97,18 +97,18 @@
        xlink:href="#Scroll-Fill"
        id="linearGradient6683"
        x1="265.79636"
-       y1="10.629942"
+       y1="21.259863"
        x2="265.79636"
-       y2="116.92918"
+       y2="106.29923"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#Scroll-Fill"
        id="linearGradient6691"
        x1="265.79636"
-       y1="138.189"
+       y1="148.81891"
        x2="265.79636"
-       y2="297.63782"
+       y2="287.0079"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -133,9 +133,9 @@
        xlink:href="#Scroll-Fill"
        id="linearGradient6715"
        x1="514.23627"
-       y1="10.629921"
+       y1="21.259863"
        x2="514.23627"
-       y2="127.55912"
+       y2="116.92915"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -163,9 +163,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="515.83067"
-     inkscape:cy="427.20608"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="501.71036"
+     inkscape:cy="552.94361"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
