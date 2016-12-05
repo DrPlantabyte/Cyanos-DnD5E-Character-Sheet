@@ -1,0 +1,43 @@
+
+
+/* Tabs implementation */
+.sheet-tab-row {
+	font-weight: bold;
+}
+
+.sheet-tabbed-pane {
+	display: none;
+}
+
+input.sheet-tab-button-all:checked ~ div.sheet-tab {
+	display: block;
+}
+
+input.sheet-tab-button1:checked ~ div.sheet-tab1, 
+input.sheet-tab-button2:checked ~ div.sheet-tab2, 
+input.sheet-tab-button3:checked ~ div.sheet-tab3, 
+input.sheet-tab-button4:checked ~ div.sheet-tab4 {
+	display: block;
+}
+/* End of tabs */
+
+/* sprites (16x16 pixel sprites) */
+.sheet-icon {
+	width: 16px;
+	height: 16px;
+	background: url(sprite-sheet.png) no-repeat;
+	float:left;
+}
+.sheet-icon-axe {
+	background-position: calc(-2 * 16px) calc(-7 * 16px); /* 3rd column, 8th row */
+}
+.sheet-icon-persuasion {
+	background-position: calc(-12 * 16px) calc(-5 * 16px);
+}
+/* sprites */
+
+/* Section Header Div */
+.sheet-header1-div {
+	text-align: right;
+	font-weight: bold;
+}

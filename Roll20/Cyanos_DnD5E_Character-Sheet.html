@@ -1,0 +1,94 @@
+
+<!-- 
+
+Roll20 API limitations:
+- No javascript
+- No embeded Base64 images
+- No SVG
+- (no in-page graphics data)
+- All CSS classes must start with "sheet-", except for those starting with "attr_", "repeating_", or "roll_" 
+- The character sheet will generally be seen inside a squarish hovering window
+
+Roll20 API features:
+- Automated list editor:
+	<h3>Skills</h3>
+	<fieldset class="repeating_skills">            
+		 <select name="attr_dtype" class="dtype">                
+			  <option value="d4">d4</option>
+			  <option value="d6">d6</option>
+			  <option value="d8">d8</option>
+			  <option value="d10">d10</option>
+			  <option value="d12">d12</option>
+		  </select>
+		  <input type="text" name="attr_skillname" />        
+	</fieldset>
+- dice rolling scripts
+
+ -->
+<!-- Roll20 template -->
+Text1<br/>
+
+<div class="sheet-header1-div">Text2</div>
+
+<div class="sheet-main">
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button1" value="1" title="No1" checked="checked"/>
+	<span class="sheet-tab-label">T1</span>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button2" value="2" title="No2"/>
+	<span class="sheet-tab-label">T2</span>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button3" value="3" title="No3"/>
+	<span class="sheet-tab-label">T3</span>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button4" value="4" title="No4"/>
+	<span class="sheet-tab-label">T4</span>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button-all" value="5" title="Everything"/>
+	<span class="sheet-tab-label">All Tabs</span>
+	
+	<br><hr><br>
+	
+	<div class="sheet-tabbed-pane sheet-tab sheet-tab1">
+		Tab 1<br/>
+		<div class="sheet-icon sheet-icon-axe" > </div> And my axe!
+		<div>Next section</div>
+		Proficiency Bonus: <input class="sheet-underlined" type="number" name="attr_PB" value="2" disabled="enabled"  ><br>
+		
+	</div>
+	<div class="sheet-tabbed-pane sheet-tab sheet-tab2">
+		Tab 2
+		<div class="sheet-section-box">
+			<div class="sheet-section-header-bar" > </div>
+			<div class="sheet-section-title">
+				<div class="sheet-icon sheet-icon-axe" > </div>Skills
+			</div>
+			<div class="sheet-section-content">
+				<div class="sheet-section-row">
+					<table class="sheet-table sheet-table-skills">
+						<tr>
+							<th colspan="2">Skill (ability)</th>
+							<th>Proficient?</th>
+							<th>Roll Modifier</th>
+						</tr><tr>
+							<td><div class="sheet-icon sheet-icon-persuasion"> </div></td>
+							<td>Persuasion (Cha)</td>
+							<td>
+								<select name="attr_persuasion_prof_exp">
+									<option value="0">No</option>
+									<option value="floor(@{PB} / 2)">Jack of all trades</option>
+									<option value="@{PB}">Yes</option>
+									<option value="(2*@{PB})">Expertise</option>
+								</select>
+							</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="sheet-section-footer-bar" > </div>
+		</div>
+	</div>
+	<div class="sheet-tabbed-pane sheet-tab sheet-tab3">
+		Tab 3
+	</div>
+	<div class="sheet-tabbed-pane sheet-tab sheet-tab4">
+		Tab 4
+	</div>
+</div>
+

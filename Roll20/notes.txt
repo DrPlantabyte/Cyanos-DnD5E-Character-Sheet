@@ -1,0 +1,90 @@
+- Regular text field for class, number spinner for total character level, proficiency bonus calculated from total character level
+- Ability scores: Icon, Name, Score, -> [Mod], Save Prof.?, <roll check>, <roll prof. check>
+- Skills: Icon, Name, Prof. bonus (number spinner), [skill bonus], <roll check>
+	- All normal skills plus 2 fill-in-the-blank lines
+- Attack: Icon, Weapon/Spell name, Attack Bonus (number spinner), <roll attack>, On hit:, damage, properties/effects, <roll damage>
+- Spell Level: Icon, Level #, spells cast (number spinner), / , spells per day (number spinner)
+- Spell: prep'd checkbox, Spell, pg. #, components (☑V ☑S ☑M:____), Casting Time, Target & Range, Duration, ☑conc.?, Notes:___
+- Pet/Animal Companion/Familiar: mini NPC stat block
+
+Icon List:
+
+Tab Icons (16 px):
+Abilities	<-->	smily
+Equipment	<-->	stack of coins
+Magic	<-->	crystal ball
+Notebook	<-->	book
+All	<-->	star
+
+Section Icons (32 px):
+Identity	<-->	head silhuette
+Appearance	<-->	hat
+Ability Scores (and saving throw check-boxes)	<-->	stick figure in circle (DaVinci style)
+Skills	<-->	book with symbol on cover
+Proficiencies	<-->	star
+Features	<-->	thumb's up
+Combat	<-->	sword and shield
+Equipment	<-->	backpack
+Mounts	<-->	horse head profile
+Deeds	<-->	paper with ribbon attached
+Pet/Animal Companion/Familiar	<-->	paw-print
+Magic	<-->	flaming ball
+Spells	<-->	scroll
+Contacts	<-->	exclamation mark
+Notes	<-->	quill and ink
+
+Row Icons (16 px):
+Strength	<-->	flexing arm
+Dexterity	<-->	hand
+Constitution	<-->	shield with arms
+Intelligence	<-->	brain
+Wisdom	<-->	beard
+Charisma	<-->	winking fall-out boy face
+Normal Roll	<-->	d20
+Prof. Roll	<-->	d20 with +
+Adv. Roll	<-->	2 d20s with a green up arrow
+Disadv. Roll	<-->	2 d20s with a dark purple down arrow
+
+Acrobatics	<-->	loopy arrow
+Animal Handling	<-->	cat face
+Arcana	<-->	book with fire on pages
+Athletics	<-->	running shoe
+Deception	<-->	mask
+History	<-->	a book
+Insight	<-->	broken mask
+Intimidation	<-->	scary angry face
+Investigation	<-->	magnifying glass
+Medicine	<-->	band-aid
+Nature	<-->	maple leaf
+Perception	<-->	eyeball and ear
+Performance	<-->	lyre
+Persuasion	<-->	handshake
+Religion	<-->	ankh
+Sleight of Hand	<-->	burglar masked face
+Stealth	<-->	shushing face
+Survival	<-->	compass
+
+Personality	<-->	smily face
+Ideals	<-->	angel smily
+Bonds	<-->	whispering smilies
+Flaws	<-->	devil smily
+
+AC	<-->	shield
+HP	<-->	heart
+Death Saves	<-->	skull
+HD	<-->	medical cross
+Weapon attack	<-->	sword
+
+Attuned Magic Items	<-->	maic wand
+Quiver	<-->	arrow
+Belt Pouches	<-->	brown bag
+Backpack	<-->	backpack
+Coin Purse	<-->	stack of coins
+Trinkets	<-->	gem
+Mount	<-->	horse-shoe
+Deed	<-->	award ribbon
+
+Spell Level	<-->	open book
+
+
+
