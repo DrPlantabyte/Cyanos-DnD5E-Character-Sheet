@@ -1,15 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script type="text/javascript" >
-		function loadTestContent(){
-			document.getElementById("page_load").innerHTML='<object style="width:800px; height:600px; border: 2px solid gray;" type="text/html" data="Cyanos_DnD5E_Character-Sheet.html" ></object>';
-		}
-	</script>
+<meta charset="utf-8"/>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+function loadContent(){
+	$('#content').load("Cyanos_DnD5E_Character-Sheet.html"); /* I hate jQuery, but there's no real alternative here */
+}
+</script>
+<link type="text/css"  rel="stylesheet" href="Cyanos_DnD5E_Character-Sheet.css" ></link>
 </head>
-<body onload="loadTestContent()">
-<link rel="stylesheet" type="text/css" href="Cyanos_DnD5E_Character-Sheet.css"/>
-<div id="page_load">
-
+<body onload="loadContent()" >
+<div id="content" style="width:800px; height:800px; border: 2px solid gray">
 </div>
 
 </html></body>

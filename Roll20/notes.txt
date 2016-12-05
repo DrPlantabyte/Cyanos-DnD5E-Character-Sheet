@@ -41,7 +41,7 @@ Intelligence	<-->	brain
 Wisdom	<-->	beard
 Charisma	<-->	winking fall-out boy face
 Normal Roll	<-->	d20
-Prof. Roll	<-->	d20 with +
+Prof. Roll	<-->	d20 with star
 Adv. Roll	<-->	2 d20s with a green up arrow
 Disadv. Roll	<-->	2 d20s with a dark purple down arrow
 

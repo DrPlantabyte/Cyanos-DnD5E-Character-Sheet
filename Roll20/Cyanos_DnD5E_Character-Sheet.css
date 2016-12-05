@@ -21,20 +21,91 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 }
 /* End of tabs */
 
-/* sprites (16x16 pixel sprites) */
+/* sprites (16x16 and 32x32 pixel sprites) */
 .sheet-icon {
 	width: 16px;
 	height: 16px;
 	background: url(sprite-sheet.png) no-repeat;
 	float:left;
 }
-.sheet-icon-axe {
-	background-position: calc(-2 * 16px) calc(-7 * 16px); /* 3rd column, 8th row */
+.sheet-icon-large {
+	width: 32px;
+	height: 32px;
+	background: url(sprite-sheet.png) no-repeat;
+	float:left;
 }
-.sheet-icon-persuasion {
-	background-position: calc(-12 * 16px) calc(-5 * 16px);
-}
-/* sprites */
+
+.sheet-icon-section-identity { background-position: 0px 0px; }
+.sheet-icon-section-appearance { background-position: 0px -32px; }
+.sheet-icon-section-ability-scores { background-position: 0px -64px; }
+.sheet-icon-section-skills { background-position: 0px -96px; }
+.sheet-icon-section-proficiencies { background-position: 0px -128px; }
+.sheet-icon-section-features { background-position: 0px -160px; }
+.sheet-icon-section-combat { background-position: -32px 0px; }
+.sheet-icon-section-equipment { background-position: -32px -32px; }
+.sheet-icon-section-mounts { background-position: -32px -64px; }
+.sheet-icon-section-deeds { background-position: -32px -96px; }
+.sheet-icon-section-pet { background-position: -32px -128px; }
+.sheet-icon-section-magic { background-position: -32px -160px; }
+.sheet-icon-section-spells { background-position: -64px 0px; }
+.sheet-icon-section-contacts { background-position: -64px -32px; }
+.sheet-icon-section-notes { background-position: -64px -64px; }
+
+
+.sheet-icon-tab-abilities { background-position: -96px 0px; }
+.sheet-icon-tab-equipment { background-position: -96px -16px; }
+.sheet-icon-tab-magic { background-position: -96px -32px; }
+.sheet-icon-tab-notebook { background-position: -96px -48px; }
+.sheet-icon-tab-all { background-position: -96px -64px; }
+.sheet-icon-strength { background-position: -96px -80px; }
+.sheet-icon-dexterity { background-position: -96px -96px; }
+.sheet-icon-constitution { background-position: -96px -112px; }
+.sheet-icon-intelligence { background-position: -96px -128px; }
+.sheet-icon-wisdom { background-position: -96px -144px; }
+.sheet-icon-charisma { background-position: -96px -160px; }
+.sheet-icon-normal-d20 { background-position: -96px -176px; }
+.sheet-icon-prof-d20 { background-position: -112px 0px; }
+.sheet-icon-adv-d20 { background-position: -112px -16px; }
+.sheet-icon-disadv-d20 { background-position: -112px -32px; }
+.sheet-icon-skill-acrobatics { background-position: -112px -48px; }
+.sheet-icon-skill-animal-handling { background-position: -112px -64px; }
+.sheet-icon-skill-arcana { background-position: -112px -80px; }
+.sheet-icon-skill-athletics { background-position: -112px -96px; }
+.sheet-icon-skill-deception { background-position: -112px -112px; }
+.sheet-icon-skill-history { background-position: -112px -128px; }
+.sheet-icon-skill-insight { background-position: -112px -144px; }
+.sheet-icon-skill-intimidation { background-position: -112px -160px; }
+.sheet-icon-skill-investigation { background-position: -112px -176px; }
+.sheet-icon-skill-medicine { background-position: -128px 0px; }
+.sheet-icon-skill-nature { background-position: -128px -16px; }
+.sheet-icon-skill-perception { background-position: -128px -32px; }
+.sheet-icon-skill-performance { background-position: -128px -48px; }
+.sheet-icon-skill-persuasion { background-position: -128px -64px; }
+.sheet-icon-skill-religion { background-position: -128px -80px; }
+.sheet-icon-skill-sleight-of-hand { background-position: -128px -96px; }
+.sheet-icon-skill-stealth { background-position: -128px -112px; }
+.sheet-icon-skill-survival { background-position: -128px -128px; }
+.sheet-icon-personality { background-position: -128px -144px; }
+.sheet-icon-ideals { background-position: -128px -160px; }
+.sheet-icon-bonds { background-position: -128px -176px; }
+.sheet-icon-flaws { background-position: -144px 0px; }
+.sheet-icon-ac { background-position: -144px -16px; }
+.sheet-icon-hp { background-position: -144px -32px; }
+.sheet-icon-death-saves { background-position: -144px -48px; }
+.sheet-icon-hd { background-position: -144px -64px; }
+.sheet-icon-attack { background-position: -144px -80px; }
+.sheet-icon-attuned-items { background-position: -144px -96px; }
+.sheet-icon-quiver { background-position: -144px -112px; }
+.sheet-icon-belt-pouch { background-position: -144px -128px; }
+.sheet-icon-backpack { background-position: -144px -144px; }
+.sheet-icon-coin-purse { background-position: -144px -160px; }
+.sheet-icon-trinkets { background-position: -144px -176px; }
+.sheet-icon-mount { background-position: -160px 0px; }
+.sheet-icon-deed { background-position: -160px -16px; }
+.sheet-icon-spell-level { background-position: -160px -32px; }
+
+
+/* end of sprites */
 
 /* Section Header Div */
 .sheet-header1-div {
