@@ -21,18 +21,58 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 }
 /* End of tabs */
 
+
+/* testing */
+.sheet-header1-div {
+	text-align: right;
+	font-weight: bold;
+}
+
+/* section box layout */
+.sheet-section-layout-table {
+	border: none;
+}
+.sheet-section-content {
+	padding: 16px;
+}
+/**********************/
+/* section decorations */
+.sheet-scroll-roll {
+	height: 16px;
+	background-image: url("scroll-roll.png");
+	background-repeat: repeat-x;
+}
+.sheet-scroll-left {
+	width: 16px;
+	height: 16px;
+	background: url("sprite-sheet.png") no-repeat;
+	background-position: -160px -48px;
+}
+.sheet-scroll-right {
+	width: 16px;
+	height: 16px;
+	background: url("sprite-sheet.png") no-repeat;
+	background-position: -160px -80px;
+}
+.sheet-paper-background {
+	background: url("section-content-background.png") no-repeat;
+	background-size: 100% 100%
+}
+/***************************/
+
+
 /* sprites (16x16 and 32x32 pixel sprites) */
 .sheet-icon {
 	width: 16px;
 	height: 16px;
-	background: url(sprite-sheet.png) no-repeat;
-	float:left;
+	background: url("sprite-sheet.png") no-repeat;
+	display: inline-block;
 }
 .sheet-icon-large {
 	width: 32px;
 	height: 32px;
-	background: url(sprite-sheet.png) no-repeat;
-	float:left;
+	background: url("sprite-sheet.png") no-repeat;
+	display: inline-block;
 }
 
 .sheet-icon-section-identity { background-position: 0px 0px; }
@@ -104,11 +144,13 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 .sheet-icon-deed { background-position: -160px -16px; }
 .sheet-icon-spell-level { background-position: -160px -32px; }
 
+.sheet-icon-scroll-top-left { background-position: -160px -48px; }
+.sheet-icon-scroll-top-middle { background-position: -160px -64px; }
+.sheet-icon-scroll-top-right { background-position: -160px -80px; }
+.sheet-icon-scroll-bottom-left { background-position: -160px -96px; }
+.sheet-icon-scroll-bottom-middle { background-position: -160px -112px; }
+.sheet-icon-scroll-bottom-right { background-position: -160px -128px; }
+
+
 
 /* end of sprites */
-
-/* Section Header Div */
-.sheet-header1-div {
-	text-align: right;
-	font-weight: bold;
-}
