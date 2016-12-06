@@ -28,14 +28,40 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 	font-weight: bold;
 }
 
+/* section fotmatting */
+.sheet-section-title-bar {
+	font-family: "Charis SIL", Georgia, Utopia, Charter, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+}
+/**********************/
+
 /* section box layout */
 .sheet-section-layout-table {
 	border: none;
+	border-spacing: 0px;
+	border-collapse: separate;
 }
-.sheet-section-content {
+.sheet-section-layout-table td {
+	padding: 0px;
+}
+.sheet-section-frame {
 	padding: 16px;
 }
+.sheet-subsection-table tr td{
+	border-style: solid none none none;
+	border-color: #404040;
+	border-width: 1px;
+	border-spacing: 0px;
+}
+.sheet-subsection-table tr th {
+	font-weight: bold;
+	font-style: normal;
+	border-style: none none none none;
+}
 /**********************/
+
 /* section decorations */
 .sheet-scroll-roll {
 	height: 16px;
