@@ -65,7 +65,7 @@ Roll20 API features:
 		</div>
 		<br>
 		<div class="sheet-header-block">
-			<input type="checkbox" name="attr_inspiration" value="1"><span class="sheet-big-bold-fancy">Inspiration</span>
+			<input type="checkbox" name="attr_inspiration" value="1" /><span class="sheet-big-bold-fancy">Inspiration</span>
 		</div>
 		<div class="sheet-header-block">
 			<span class="sheet-big-bold-fancy">Prof.: +</span>
@@ -85,7 +85,6 @@ Roll20 API features:
 	
 	<!-- TAB 1 BEGIN -->
 	<div class="sheet-tabbed-pane sheet-tab sheet-tab1">
-		Tab 1<br/>
 		
 		<table class="sheet-columns"><tr>
 		<td class="sheet-column1-cell">
@@ -133,7 +132,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-strength"> </div>
 									</td><td>
-										<div class="sheet-big-bold">STR</div><div class="sheet-undertext">Strength</div>
+										<div class="sheet-big-bold">STR</div><div class="sheet-undertext sheet-text-align-center">Strength</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_strength" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -151,7 +150,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-dexterity"> </div>
 									</td><td>
-										<div class="sheet-big-bold">DEX</div><div class="sheet-undertext">Dexterity</div>
+										<div class="sheet-big-bold">DEX</div><div class="sheet-undertext sheet-text-align-center">Dexterity</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_dexterity" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -169,7 +168,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-constitution"> </div>
 									</td><td>
-										<div class="sheet-big-bold">CON</div><div class="sheet-undertext">Constitution</div>
+										<div class="sheet-big-bold">CON</div><div class="sheet-undertext sheet-text-align-center">Constitution</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_constitution" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -187,7 +186,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-intelligence"> </div>
 									</td><td>
-										<div class="sheet-big-bold">INT</div><div class="sheet-undertext">Intelligence</div>
+										<div class="sheet-big-bold">INT</div><div class="sheet-undertext sheet-text-align-center">Intelligence</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_intelligence" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -205,7 +204,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-wisdom"> </div>
 									</td><td>
-										<div class="sheet-big-bold">WIS</div><div class="sheet-undertext">Wisdom</div>
+										<div class="sheet-big-bold">WIS</div><div class="sheet-undertext sheet-text-align-center">Wisdom</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_wisdom" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -223,7 +222,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon-large sheet-icon-charisma"> </div>
 									</td><td>
-										<div class="sheet-big-bold">CHA</div><div class="sheet-undertext">Charisma</div>
+										<div class="sheet-big-bold">CHA</div><div class="sheet-undertext sheet-text-align-center">Charisma</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_charisma" min="0" step="1" value="8"/>
 									</td><td style="vertical-align:middle;">
@@ -978,10 +977,6 @@ Roll20 API features:
 		</div>
 		<!-- end features box -->
 		
-		<div class="sheet-icon sheet-icon-skill-persuasion" > </div> And my axe!
-		<div><div class="sheet-icon-large sheet-icon-section-identity" > </div> Next section</div>
-		Proficiency Bonus: <input class="sheet-underlined" type="number" name="attr_prof" value="2" disabled="enabled"  ><br>
-		
 		
 		<!-- END OF COLUMN 2 -->
 		</div></td></tr></table>
@@ -990,46 +985,272 @@ Roll20 API features:
 	
 	<!-- TAB 1 END -->
 	
-	
-	
+	<!-- TAB 2 START -->
 	<div class="sheet-tabbed-pane sheet-tab sheet-tab2">
-		Tab 2
-		<div class="sheet-section-box">
-			<div class="sheet-section-header-bar" > </div>
-			<div class="sheet-section-title">
-				<div class="sheet-icon sheet-icon-skill-arcana" > </div>Skills
-			</div>
-			<div class="sheet-section-content">
-				<div class="sheet-section-row">
-					<table class="sheet-table sheet-table-skills">
-						<tr>
-							<th colspan="2">Skill (ability)</th>
-							<th>Proficient?</th>
-							<th>Roll Modifier</th>
-						</tr><tr>
-							<td><div class="sheet-icon sheet-icon-skill-persuasion"> </div></td>
-							<td>Persuasion (Cha)</td>
-							<td>
-								<select name="attr_persuasion_prof_exp">
-									<option value="0">No</option>
-									<option value="floor(@{prof} / 2)">Jack of all trades</option>
-									<option value="@{prof}">Yes</option>
-									<option value="(2*@{prof})">Expertise</option>
-								</select>
-							</td>
-							<td></td>
-						</tr>
-					</table>
-				</div>
-			</div>
-			<div class="sheet-section-footer-bar" > </div>
+		
+		<table class="sheet-columns"><tr>
+		<td class="sheet-column1-cell">
+		<div class="sheet-column1">
+		<!-- COLUMN 1 -->
+		
+		<!-- combat box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								<div class="sheet-icon-large sheet-icon-section-combat" > </div>Combat
+							</div>
+							
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-ac" > </div>AC:
+								<div class="sheet-inline">
+									<input class="sheet-numbox" type="number" name="attr_ac" value="@{ac_base}+@{ac_ability}+@{ac_other}" disabled="disabled">
+								</div>
+								=
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Armor</div>
+									<input class="sheet-numbox" type="number" name="attr_ac_base" min="10" step="1" value="10" />
+								</div>
+								+
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Ability</div>
+									<select class="sheet-numbox"  style="width:3.5em" name="attr_ac_ability">
+										<option value="0">N/A</option>
+										<option value="@{strength_mod}">Str</option>
+										<option value="@{dexterity_mod}">Dex</option>
+										<option value="@{constitution_mod}">Con</option>
+										<option value="@{intelligence_mod}">Int</option>
+										<option value="@{wisdom_mod}">Wis</option>
+										<option value="@{charisma_mod}">Cha</option>
+									</select>
+								</div>
+								+
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Bonus</div>
+									<input class="sheet-numbox" type="number" name="attr_ac_other" step="1" value="0" />
+								</div>
+							</div>
+							<div class="sheet-subsection-nontable-row">
+							
+								<div class="sheet-half-width">
+									<div class="sheet-undertext">Equipped Armor</div>
+									<input type="text" name="attr_armor_item"/>
+								</div>
+								
+								<div class="sheet-half-width">
+									<div class="sheet-undertext">Equipped Shield</div>
+									<input type="text" name="attr_shield_item"/>
+								</div>
+							</div>
+							
+							<div class="sheet-subsection-nontable-row">
+								<div class="sheet-icon sheet-icon-hp" > </div>HP:
+								(
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Temp.</div>
+									<input class="sheet-numbox" type="number" name="attr_hp_temp" min="0" step="1" value="0" />
+								</div>
+								)
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Current</div>
+									<input class="sheet-numbox" type="number" name="attr_hp_current" min="0" step="1" value="1" />
+								</div>
+								/
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Max</div>
+									<input class="sheet-numbox" type="number" name="attr_hp_max" min="1" step="1" value="1" />
+								</div>
+							</div>
+							
+							<div class="sheet-subsection-nontable-row">
+								<div class="sheet-icon sheet-icon-hd" > </div>HD:
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Remaining</div>
+									<input style="width: 5em;" type="text" name="attr_hd_remaining" />
+								</div>
+								/
+								<div class="sheet-inline">
+									<div class="sheet-undertext sheet-text-align-center">Total</div>
+									<input style="width: 5em;" type="text" name="attr_hd_total" />
+								</div>
+							</div>
+							
+							<div class="sheet-subsection-nontable-row">
+								<div class="sheet-icon sheet-icon-death-saves" > </div>Death Saves:
+								<div class="sheet-inline">
+									<button type="roll" value="/roll 1d20 vs 10" name="roll_death_save"></button>
+								</div>
+								<div class="sheet-inline">
+									<div class="sheet-undertext">
+										<input type="checkbox" name="attr_death_save_success1" value="1" />
+										<input type="checkbox" name="attr_death_save_success2" value="1" />
+										<input type="checkbox" name="attr_death_save_success3" value="1" />
+										Successes
+									</div>
+									<div class="sheet-undertext">
+										<input type="checkbox" name="attr_death_save_failure1" value="1" />
+										<input type="checkbox" name="attr_death_save_failure2" value="1" />
+										<input type="checkbox" name="attr_death_save_failure3" value="1" />
+										Failures
+									</div>
+								</div>
+							</div>
+							<div class="sheet-subsection-nontable-row">
+								Attacks:
+								<!-- set of entry boxes -->
+								<div class="sheet-entry-array">
+									<fieldset class="repeating_attacks sheet-repeater-fieldset">
+										<!-- start of repeated section -->
+										
+										<div class="sheet-repeated-entry" style="border: none;">
+											<div class="sheet-icon sheet-icon-attack" > </div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext">Weapon/Spell</div>
+												<input type="text" name="attr_attack_name" value="" style="width:90%">
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Attack Bonus</div>
+												+<input class="sheet-numbox" type="number" name="attr_attack_bonus" value="@{attack_ability_mod}+@{attack_other}" disabled="disabled"/>
+											</div>
+											<button type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{attack_bonus}" name="roll_attack"></button>
+											<br>
+											<div class="sheet-inline" style="width: 16px"> </div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Ability</div>
+												<select class="sheet-numbox"  style="width:3.5em" name="attr_attack_ability_mod">
+													<option value="@{strength_mod}">Str</option>
+													<option value="@{dexterity_mod}">Dex</option>
+													<option value="@{constitution_mod}">Con</option>
+													<option value="@{intelligence_mod}">Int</option>
+													<option value="@{wisdom_mod}">Wis</option>
+													<option value="@{charisma_mod}">Cha</option>
+													<option value="0">None</option>
+												</select>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Prof.?</div>
+												<select class="sheet-numbox"  style="width:3.5em" name="attr_attack_prof">
+													<option value="@{prof}">Yes</option>
+													<option value="0">No</option>
+												</select>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Misc.</div>
+												<input class="sheet-numbox" type="number" name="attr_attack_other" step="1" value="0" />
+											</div>
+											<div class="sheet-undertext">On Hit:</div>
+											<textarea class="sheet-paragraph-box" name="attr_attack_onhit"></textarea>
+										</div>
+										
+										<!-- end of repeated section -->
+									</fieldset>
+								</div>
+							</div>
+							
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
 		</div>
+		<!-- end combat box -->
+		<br>
+		
+		<!-- END OF COLUMN 1 -->
+		</div>
+		</td><td class="sheet-column2-cell">
+		<div class="sheet-column2">
+		<!-- COLUMN 2 -->
+		
+		
+		
+		<!-- END OF COLUMN 2 -->
+		</div></td></tr>
+		</table>
+		
 	</div>
+	<!-- TAB 2 END -->
+	
+	<!-- TAB 3 START -->
 	<div class="sheet-tabbed-pane sheet-tab sheet-tab3">
-		Tab 3
+		
+		<table class="sheet-columns"><tr>
+		<td class="sheet-column1-cell">
+		<div class="sheet-column1">
+		<!-- COLUMN 1 -->
+		
+		
+		
+		<!-- END OF COLUMN 1 -->
+		</div>
+		</td><td class="sheet-column2-cell">
+		<div class="sheet-column2">
+		<!-- COLUMN 2 -->
+		
+		
+		
+		<!-- END OF COLUMN 2 -->
+		</div></td></tr>
+		</table>
+		
 	</div>
+	<!-- TAB 3 END -->
+	
+	<!-- TAB 4 START -->
 	<div class="sheet-tabbed-pane sheet-tab sheet-tab4">
-		Tab 4
+		
+		<table class="sheet-columns"><tr>
+		<td class="sheet-column1-cell">
+		<div class="sheet-column1">
+		<!-- COLUMN 1 -->
+		
+		
+		
+		<!-- END OF COLUMN 1 -->
+		</div>
+		</td><td class="sheet-column2-cell">
+		<div class="sheet-column2">
+		<!-- COLUMN 2 -->
+		
+		
+		
+		<!-- END OF COLUMN 2 -->
+		</div></td></tr>
+		</table>
+		
 	</div>
+	<!-- TAB 4 END -->
 </div>
 

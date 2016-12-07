@@ -26,6 +26,9 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 .sheet-text-align-left { text-align: left; }
 .sheet-text-align-center { text-align: center; }
 .sheet-text-align-right { text-align: right; }
+.sheet-inline {
+	display: inline-block;
+}
 .sheet-header {
 	padding: 8px 16px;
 }
@@ -144,6 +147,16 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 }
 .sheet-subsection-table tr td:first-child {
 	text-align: left;
+}
+div.sheet-subsection-nontable-row  {
+	border-bottom: 1pt solid #808080;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 4px;
+}
+div:last-child.sheet-subsection-nontable-row {
+	border-bottom: none;
 }
 .sheet-half-width {
 	display: inline-block;
