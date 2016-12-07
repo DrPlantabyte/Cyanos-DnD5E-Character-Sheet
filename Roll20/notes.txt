@@ -10,8 +10,8 @@
 Icon List:
 
 Tab Icons (16 px):
-Abilities	<-->	smily
-Equipment	<-->	stack of coins
+Abilities & Personality	<-->	smily
+Combat & Equipment	<-->	sword
 Magic	<-->	crystal ball
 Notebook	<-->	book
 All	<-->	star

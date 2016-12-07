@@ -22,25 +22,76 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 /* End of tabs */
 
 
-/* testing */
-.sheet-header1-div {
-	text-align: right;
-	font-weight: bold;
-}
-
 /* section fotmatting */
 .sheet-text-align-left { text-align: left; }
 .sheet-text-align-center { text-align: center; }
 .sheet-text-align-right { text-align: right; }
+.sheet-header {
+	padding: 8px 16px;
+}
+.sheet-header-block {
+	display: inline-block;
+	padding: 6px 4px;
+}
+.sheet-column1 {
+	vertical-align: top;
+}
+.sheet-column2 {
+	vertical-align: top;
+}
 .sheet-section-title-bar {
-	font-family: "Charis SIL", Georgia, Utopia, Charter, serif;
-	font-size: 1.5em;
+	font-family: Georgia, "Charis SIL", Utopia, Charter, serif;
+	font-size: 22pt;
 	font-weight: bold;
 	font-style: normal;
+}
+.sheet-section-content {
+	font-family: Georgia, "Charis SIL", Utopia, Charter, serif;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+}
+.sheet-section-line-item {
+	font-family: Georgia, "Charis SIL", Utopia, Charter, serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	text-align: right;
+}
+.sheet-numbox {
+	width: 3em;
+}
+.sheet-long-numbox {
+	width: 100px;
+}
+.sheet-long-text-input {
+	width: 150px;
+}
+.sheet-big-bold {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.sheet-big-bold-fancy {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Georgia, "Charis SIL", Utopia, Charter, serif;
+}
+.sheet-undertext {
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Helvetica, Arial, sans-serif;
 }
 /**********************/
 
 /* section box layout */
+.sheet-columns {
+	border: none;
+}
+.sheet-columns td{
+	border: none;
+	padding: 4px;
+}
 .sheet-section-layout-table {
 	border: none;
 	border-spacing: 0px;
@@ -51,6 +102,7 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 }
 .sheet-section-frame {
 	padding: 16px;
+	width: 316px;
 }
 .sheet-subsection-table {
 	border-spacing: 0;
@@ -61,7 +113,8 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 	border-left: none;
 	border-right: none;
 	text-align: center;
-	padding: 4px;
+	vertical-align: top;
+	padding: 2px;
 }
 .sheet-subsection-table tr th {
 	border-bottom: none;
@@ -69,6 +122,7 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 	font-style: normal;
 	text-decoration: underline;
 	text-align: center;
+	vertical-align: bottom;
 }
 .sheet-subsection-table tr:last-child td {
 	border-bottom: none;
@@ -139,12 +193,12 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 .sheet-icon-tab-magic { background-position: -96px -32px; }
 .sheet-icon-tab-notebook { background-position: -96px -48px; }
 .sheet-icon-tab-all { background-position: -96px -64px; }
-.sheet-icon-strength { background-position: -96px -80px; }
-.sheet-icon-dexterity { background-position: -96px -96px; }
-.sheet-icon-constitution { background-position: -96px -112px; }
-.sheet-icon-intelligence { background-position: -96px -128px; }
-.sheet-icon-wisdom { background-position: -96px -144px; }
-.sheet-icon-charisma { background-position: -96px -160px; }
+.sheet-icon-strength { background-position: -64px -96px; }
+.sheet-icon-dexterity { background-position: -64px -128px; }
+.sheet-icon-constitution { background-position: -64px -160px; }
+.sheet-icon-intelligence { background-position: 0px -192px; }
+.sheet-icon-wisdom { background-position: -32px -192px; }
+.sheet-icon-charisma { background-position: -64px -192px; }
 .sheet-icon-normal-d20 { background-position: -96px -176px; }
 .sheet-icon-prof-d20 { background-position: -112px 0px; }
 .sheet-icon-adv-d20 { background-position: -112px -16px; }
