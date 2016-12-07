@@ -38,10 +38,14 @@ input.sheet-tab-button4:checked ~ div.sheet-tab4 {
 }
 .sheet-column1 { }
 .sheet-column2 { }
+.sheet-column3 { } /* column 3 is for single-column pages*/
 .sheet-column1-cell {
 	vertical-align: top;
 }
 .sheet-column2-cell {
+	vertical-align: top;
+}
+.sheet-column3-cell {
 	vertical-align: top;
 }
 .sheet-section-title-bar {
