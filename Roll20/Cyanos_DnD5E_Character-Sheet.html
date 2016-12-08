@@ -31,12 +31,14 @@ Roll20 API features:
 	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button1" value="1" title="No1" checked="checked"/>
 	<div class="sheet-icon sheet-icon-tab-abilities"> </div><span class="sheet-tab-label">Abilities&nbsp;</span>
 	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button2" value="2" title="No2"/>
-	<div class="sheet-icon sheet-icon-tab-equipment"> </div><span class="sheet-tab-label">Gear & Combat&nbsp;</span>
+	<div class="sheet-icon sheet-icon-tab-equipment"> </div><span class="sheet-tab-label">Gear &amp; Combat&nbsp;</span>
 	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button3" value="3" title="No3"/>
-	<div class="sheet-icon sheet-icon-tab-magic"> </div><span class="sheet-tab-label">Magic&nbsp;</span>
+	<div class="sheet-icon sheet-icon-mount"> </div><span class="sheet-tab-label">Animals &amp; Property&nbsp;</span>
 	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button4" value="4" title="No4"/>
+	<div class="sheet-icon sheet-icon-tab-magic"> </div><span class="sheet-tab-label">Magic&nbsp;</span>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button4" value="5" title="No5"/>
 	<div class="sheet-icon sheet-icon-tab-notebook"> </div><span class="sheet-tab-label">Notebook&nbsp;</span>
-	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button-all" value="5" title="Everything"/>
+	<input type="radio" name="attr_tab" class="sheet-tab-button sheet-tab-button-all" value="6" title="Everything"/>
 	<span class="sheet-tab-label">Everything</span>
 	
 	<hr>
@@ -115,7 +117,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-ability-scores" > </div>Ability Scores
+								<div class="sheet-icon-large sheet-icon-section-ability-scores" > </div> Ability Scores
 							</div>
 							
 							<table class="sheet-subsection-table">
@@ -283,7 +285,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-skills" > </div>Skills
+								<div class="sheet-icon-large sheet-icon-section-skills" > </div> Skills
 							</div>
 							
 							<table class="sheet-subsection-table">
@@ -750,7 +752,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-proficiencies" > </div>Proficiencies
+								<div class="sheet-icon-large sheet-icon-section-proficiencies" > </div> Proficiencies
 							</div>
 							<textarea class="sheet-paragraph-box" name="attr_proficiencies" value="Languages: "></textarea>
 							
@@ -806,7 +808,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-identity" > </div>Identity
+								<div class="sheet-icon-large sheet-icon-section-identity" > </div> Identity
 							</div>
 							
 							<!-- fill-ins -->
@@ -832,19 +834,19 @@ Roll20 API features:
 							
 							<!-- multi-line text boxes -->
 							<div>
-								<div><div class="sheet-icon sheet-icon-personality" > </div>Personality Traits</div>
+								<div><div class="sheet-icon sheet-icon-personality" > </div> Personality Traits</div>
 								<textarea class="sheet-paragraph-box" name="attr_personality_traits"></textarea>
 							</div>
 							<div>
-								<div><div class="sheet-icon sheet-icon-ideals" > </div>Ideals</div>
+								<div><div class="sheet-icon sheet-icon-ideals" > </div> Ideals</div>
 								<textarea class="sheet-paragraph-box" name="attr_ideals"></textarea>
 							</div>
 							<div>
-								<div><div class="sheet-icon sheet-icon-bonds" > </div>Story Connections/Bonds</div>
+								<div><div class="sheet-icon sheet-icon-bonds" > </div> Story Connections/Bonds</div>
 								<textarea class="sheet-paragraph-box" name="attr_bonds"></textarea>
 							</div>
 							<div>
-								<div><div class="sheet-icon sheet-icon-flaws" > </div>Flaws</div>
+								<div><div class="sheet-icon sheet-icon-flaws" > </div> Flaws</div>
 								<textarea class="sheet-paragraph-box" name="attr_flaws"></textarea>
 							</div>
 							<!-- end of content -->
@@ -892,7 +894,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-appearance" > </div>Appearance
+								<div class="sheet-icon-large sheet-icon-section-appearance" > </div> Appearance
 							</div>
 							<textarea class="sheet-paragraph-box" name="attr_appearance" value="Hair, eyes, skin, scars, etc."></textarea>
 							
@@ -941,7 +943,7 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-features" > </div>Features
+								<div class="sheet-icon-large sheet-icon-section-features" > </div> Features
 							</div>
 							<!-- set of entry boxes -->
 							<div class="sheet-entry-array">
@@ -1017,11 +1019,11 @@ Roll20 API features:
 							
 							<!-- section title bar -->
 							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-combat" > </div>Combat
+								<div class="sheet-icon-large sheet-icon-section-combat" > </div> Combat
 							</div>
 							
 							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
-								<div class="sheet-icon sheet-icon-ac" > </div>AC:
+								<div class="sheet-icon sheet-icon-ac" > </div> AC:
 								<div class="sheet-inline">
 									<input class="sheet-numbox" type="number" name="attr_ac" value="@{ac_base}+@{ac_ability}+@{ac_other}" disabled="disabled">
 								</div>
@@ -1063,7 +1065,7 @@ Roll20 API features:
 							</div>
 							
 							<div class="sheet-subsection-nontable-row">
-								<div class="sheet-icon sheet-icon-hp" > </div>HP:
+								<div class="sheet-icon sheet-icon-hp" > </div> HP:
 								(
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Temp.</div>
@@ -1082,7 +1084,7 @@ Roll20 API features:
 							</div>
 							
 							<div class="sheet-subsection-nontable-row">
-								<div class="sheet-icon sheet-icon-hd" > </div>HD:
+								<div class="sheet-icon sheet-icon-hd" > </div> HD:
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Remaining</div>
 									<input style="width: 5em;" type="text" name="attr_hd_remaining" />
@@ -1095,7 +1097,7 @@ Roll20 API features:
 							</div>
 							
 							<div class="sheet-subsection-nontable-row">
-								<div class="sheet-icon sheet-icon-death-saves" > </div>Death Saves:
+								<div class="sheet-icon sheet-icon-death-saves" > </div> Death Saves:
 								<div class="sheet-inline">
 									<button type="roll" value="/roll 1d20 vs 10" name="roll_death_save"></button>
 								</div>
@@ -1188,13 +1190,321 @@ Roll20 API features:
 		<!-- end combat box -->
 		<br>
 		
+		<!-- backpack box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								<div class="sheet-icon-large sheet-icon-section-equipment" > </div> Backpack
+							</div>
+							<div class="sheet-subsection-nontable-row">
+								<div class="sheet-cell-header">Pack Straps</div>
+								<div class="sheet-undertext">Witdraw item as an action</div>
+								<div class="sheet-undertext">Encumbered if min. Str. req. is not met or weight limit exceeded</div>
+								<div class="sheet-small-padding">
+									<div class="sheet-undertext"><b>Outer pouch:</b> 1 item up to 5 lb., req. 11 Str.</div>
+									<input style="width: 100%;" type="text" value="" name="attr_packstrap1"/>
+								</div>
+								<div class="sheet-small-padding">
+									<div class="sheet-undertext"><b>Top strap:</b> 1 item up to 10 lb., req. 13 Str.</div>
+									<input style="width: 100%;" type="text" value="" name="attr_packstrap2"/>
+								</div>
+								<div class="sheet-small-padding">
+									<div class="sheet-undertext"><b>Side strap:</b> 1 item up to 10 lb., req. 17 Str.</div>
+									<input style="width: 100%;" type="text" value="" name="attr_packstrap3"/>
+								</div>
+								<div class="sheet-small-padding">
+									<div class="sheet-undertext"><b>Side strap:</b> 1 item up to 10 lb., req. 17 Str.</div>
+									<input style="width: 100%;" type="text" value="" name="attr_packstrap4"/>
+								</div>
+							</div>
+							<div class="sheet-subsection-nontable-row">
+								<div class="sheet-cell-header">Main Compartment</div>
+								<div class="sheet-undertext">Witdrawing an item takes 1d4 rounds</div>
+								<div class="sheet-undertext">Limit 6 items and less than 40 lb. or else encumbered</div>
+								<textarea class="sheet-paragraph-box" name="attr_backpack_contents"></textarea>
+							</div>
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- end backpack box -->
+		
 		<!-- END OF COLUMN 1 -->
 		</div>
 		</td><td class="sheet-column2-cell">
 		<div class="sheet-column2">
 		<!-- COLUMN 2 -->
 		
-		
+		<!-- equipment box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								<div class="sheet-icon-large sheet-icon-section-equipment" > </div> Equipment
+							</div>
+							
+							<!-- magic items -->
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-attuned-items" > </div> Attuned Magic Items
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_attuned_item_1"/>
+								</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_attuned_item_2"/>
+								</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_attuned_item_3"/>
+								</div>
+							</div>
+							
+							<!-- ammo -->
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-quiver" > </div> Quiver: 
+								<div class="sheet-inline sheet-half-width">
+									<input type="text" name="attr_ammo_item"/>
+								</div>
+								<div class="sheet-inline">
+									&nbsp;
+									<input class="sheet-numbox" type="number" name="attr_ammo_count" min="0" step="1" value="0">
+								</div>
+							</div>
+							
+							<!-- belt items -->
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-belt-pouch" > </div>
+								Belt Pouches
+								<div class="sheet-undertext">Withdraw item as a bonus action, limit 10 lb. total weight</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_belt_item_1"/>
+								</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_belt_item_2"/>
+								</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_belt_item_3"/>
+								</div>
+								<div class="sheet-small-padding sheet-full-width">
+									<input style="width: 100%;" type="text" name="attr_belt_item_4"/>
+								</div>
+							</div>
+							
+							<!-- coin purse -->
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-belt-pouch" > </div>
+								Coin Purse
+								<div class="sheet-undertext">Encumbered if carrying more than 500 coins</div>
+								<div>
+									<div class="sheet-inline sheet-half-width">
+										<div class="sheet-undertext">Coin</div>
+										<input style="text-align: right;" type="text" value="pp" name="attr_coin1_name"/>
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<div class="sheet-undertext">Count</div>
+										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin1_count" min="0" step="1" value="0">
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<div class="sheet-undertext">Value/Coin</div>
+										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin1_value" min="0" step="0.01"  value="10">
+									</div>
+								</div>
+								<div>
+									<div class="sheet-inline sheet-half-width">
+										<input style="text-align: right;" type="text" value="gp" name="attr_coin2_name"/>
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin2_count" min="0" step="1" value="0">
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin2_value" min="0" step="0.01"  value="1">
+									</div>
+								</div>
+								<div>
+									<div class="sheet-inline sheet-half-width">
+										<input style="text-align: right;" type="text" value="ep" name="attr_coin3_name"/>
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin3_count" min="0" step="1" value="0">
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin3_value" min="0" step="0.01"  value="0.5">
+									</div>
+								</div>
+								<div>
+									<div class="sheet-inline sheet-half-width">
+										<input style="text-align: right;" type="text" value="sp" name="attr_coin4_name"/>
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin4_count" min="0" step="1" value="0">
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin4_value" min="0" step="0.01"  value="0.1">
+									</div>
+								</div>
+								<div>
+									<div class="sheet-inline sheet-half-width">
+										<input style="text-align: right;" type="text" value="cp" name="attr_coin5_name"/>
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin5_count" min="0" step="1" value="0">
+									</div>
+									&nbsp;
+									<div class="sheet-inline">
+										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin5_value" min="0" step="0.01"  value="0.01">
+									</div>
+								</div>
+								<div style="width:100%; text-align: right;">
+									<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin_count" value="@{coin1_count}+@{coin2_count}+@{coin3_count}+@{coin4_count}+@{coin5_count}" disabled="disabled">
+									coins, total value =
+									<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_wealth_total" value="@{coin1_count}*@{coin1_value}+@{coin2_count}*@{coin2_value}+@{coin3_count}*@{coin3_value}+@{coin4_count}*@{coin4_value}+@{coin5_count}*@{coin5_value}" disabled="disabled">
+								</div>
+							</div>
+							
+							<!-- trinkets -->
+							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
+								<div class="sheet-icon sheet-icon-belt-pouch" > </div>
+								Trinkets
+								<div class="sheet-undertext">Up to 12 fist-sized items</div>
+								<textarea class="sheet-paragraph-box" name="attr_trinkets"></textarea>
+							</div>
+							
+							
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- end equipment box -->
+		<br>
+		<!-- encumbrance info box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								Encumbrance
+							</div>
+							<p>
+							Each equipment compartment has a limit to the number of items it can hold, the total weight it can carry, and/or have a minimum Strength score requirement. Violating any of these conditions will cause you to be <b>encumbered</b>.
+							</p>
+							<p>
+							<b>Encumbered.</b> Your speed decreases by 10 ft. and you suffer disadvantage on all skill checks, attack rolls, and saving throws.
+							</p>
+							
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- end encumbrance info box -->
 		
 		<!-- END OF COLUMN 2 -->
 		</div></td></tr>
@@ -1252,5 +1562,30 @@ Roll20 API features:
 		
 	</div>
 	<!-- TAB 4 END -->
+	
+	<!-- TAB 5 START -->
+	<div class="sheet-tabbed-pane sheet-tab sheet-tab5">
+		
+		<table class="sheet-columns"><tr>
+		<td class="sheet-column1-cell">
+		<div class="sheet-column1">
+		<!-- COLUMN 1 -->
+		
+		
+		
+		<!-- END OF COLUMN 1 -->
+		</div>
+		</td><td class="sheet-column2-cell">
+		<div class="sheet-column2">
+		<!-- COLUMN 2 -->
+		
+		
+		
+		<!-- END OF COLUMN 2 -->
+		</div></td></tr>
+		</table>
+		
+	</div>
+	<!-- TAB 5 END -->
 </div>
 
