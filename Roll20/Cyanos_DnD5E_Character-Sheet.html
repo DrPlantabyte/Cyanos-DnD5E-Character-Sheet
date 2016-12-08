@@ -1547,14 +1547,73 @@ Roll20 API features:
 							<div class="sheet-section-title-bar">
 								<div class="sheet-icon-large sheet-icon-section-pet" > </div> Pets
 							</div>
-							<div class="sheet-undertext">Mounts, animal companions, familiars, and such</div>
+							<div class="sheet-undertext">Mounts, animal companions, familiars, etc.</div>
 							<div class="sheet-entry-array">
 									<fieldset class="repeating_attacks sheet-repeater-fieldset">
 										<!-- start of repeated section -->
 										
-										<div class="sheet-repeated-entry" style="border: none;">
-											
+										
+										<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
+											<div class="sheet-subsection-nontable-row">
+												<div class="sheet-inline">
+													<div class="sheet-undertext">Name</div>
+													<input style="width: 9em" type="text" name="attr_pet_name"/>
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext">Creature</div>
+													<input style="width: 9em" type="text" name="attr_pet_species"/>
+												</div>
+											</div>
+											<div class="sheet-subsection-nontable-row">
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">AC</div>
+													<input class="sheet-numbox" type="number" name="attr_pet_ac" step="1" value="10" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Hit Points</div>
+													<div style="padding:0px;">
+														<input class="sheet-numbox" type="number" name="attr_pet_hp" step="1" value="1" />
+														/
+														<input class="sheet-numbox" type="number" name="attr_pet_hp_max" step="1" min="1" value="1" />
+													</div>
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Movement Speed</div>
+													<input style="width: 8em" type="text" name="attr_pet_speed"/>
+												</div>
+											</div>
+											<div class="sheet-subsection-nontable-row">
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Str</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_strength" step="1" min="0" value="8" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Dex</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_dexterity" step="1" min="0" value="8" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Con</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_constitution" step="1" min="0" value="8" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Int</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_intelligence" step="1" min="0" value="8" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Wis</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_wisdom" step="1" min="0" value="8" />
+												</div>
+												<div class="sheet-inline">
+													<div class="sheet-undertext sheet-text-align-center">Cha</div>
+													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_charisma" step="1" min="0" value="8" />
+												</div>
+											</div>
+											<div class="sheet-subsection-nontable-row">
+												<div class="sheet-undertext">Traits, attacks, inventory, trivia, etc.</div>
+													<textarea class="sheet-paragraph-box" name="attr_pet_info"></textarea>
+											</div>
 										</div>
+										<hr>
 										
 										<!-- end of repeated section -->
 									</fieldset>
@@ -1588,7 +1647,55 @@ Roll20 API features:
 		<div class="sheet-column2">
 		<!-- COLUMN 2 -->
 		
-		
+		<!-- property box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								<div class="sheet-icon-large sheet-icon-section-deeds" > </div> Property
+							</div>
+							<div class="sheet-undertext">Realestate, deeds, non-portable possessions, etc.</div>
+							<textarea class="sheet-paragraph-box" name="attr_property"></textarea>
+							
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- end property box -->
 		
 		<!-- END OF COLUMN 2 -->
 		</div></td></tr>
