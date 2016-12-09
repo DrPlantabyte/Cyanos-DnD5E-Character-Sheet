@@ -4,6 +4,7 @@
 .sheet-tab-row {
 	font-weight: bold;
 }
+.sheet-tab-button { }
 
 .sheet-tabbed-pane {
 	display: none;
