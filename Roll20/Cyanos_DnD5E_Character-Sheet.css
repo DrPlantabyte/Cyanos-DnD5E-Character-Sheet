@@ -191,23 +191,23 @@ div:last-child.sheet-subsection-nontable-row {
 /* section decorations */
 .sheet-scroll-roll {
 	height: 16px;
-	background-image: url("scroll-roll.png");
+	background-image: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/scroll-roll.png");
 	background-repeat: repeat-x;
 }
 .sheet-scroll-left {
 	width: 16px;
 	height: 16px;
-	background: url("sprite-sheet.png") no-repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/sprite-sheet.png") no-repeat;
 	background-position: -160px -48px;
 }
 .sheet-scroll-right {
 	width: 16px;
 	height: 16px;
-	background: url("sprite-sheet.png") no-repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/sprite-sheet.png") no-repeat;
 	background-position: -160px -80px;
 }
 .sheet-paper-background {
-	background: url("section-content-background.png") no-repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/section-content-background.png") no-repeat;
 	background-size: 100% 100%
 }
 /***************************/
@@ -220,13 +220,13 @@ div:last-child.sheet-subsection-nontable-row {
 .sheet-icon {
 	width: 16px;
 	height: 16px;
-	background: url("sprite-sheet.png") no-repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/sprite-sheet.png") no-repeat;
 	display: inline-block;
 }
 .sheet-icon-large {
 	width: 32px;
 	height: 32px;
-	background: url("sprite-sheet.png") no-repeat;
+	background: url("https://s3-us-west-2.amazonaws.com/cyanoshare/Roll20/character-sheet/sprite-sheet.png") no-repeat;
 	display: inline-block;
 }
 
