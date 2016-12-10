@@ -73,12 +73,12 @@ Roll20 API features:
 		</div>
 		<div class="sheet-header-block">
 			<span class="sheet-big-bold-fancy">Prof.: +</span>
-			<input class="sheet-numbox" type="number" name="attr_prof" value="(ceil((@{level})/100) + ceil((@{level})/4))" disabled="disabled"  />
+			<input class="sheet-numbox" type="number" name="attr_prof" value="(1 + ceil((@{level})/4))" disabled="disabled"  />
 		</div>
 		<div class="sheet-header-block">
 			<span class="sheet-big-bold-fancy">Initiative: +</span>
 			<input class="sheet-numbox" type="number" step="1" name="attr_initiative" value="0" />
-			<button class="sheet-roll-button" type="roll" name="roll_initiative" value="/roll 1d20 + @{initiative} &{tracker}"></button>
+			<button class="sheet-roll-button" type="roll" name="roll_initiative" value="/roll [Initiative roll] 1d20 + @{initiative} &{tracker}"></button>
 		</div>
 		<div class="sheet-header-block">
 			<span class="sheet-big-bold-fancy">Speed:</span>
@@ -144,8 +144,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_strength_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{strength_mod}" name="roll_strength"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{strength_mod}" name="roll_strength_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Strength check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{strength_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_strength"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -162,8 +161,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_dexterity_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{dexterity_mod}" name="roll_dexterity"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{dexterity_mod}" name="roll_dexterity_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Dexterity check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{dexterity_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_dexterity"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -180,8 +178,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_constitution_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{constitution_mod}" name="roll_constitution"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{constitution_mod}" name="roll_constitution_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Constitution check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{constitution_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_constitution"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -198,8 +195,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_intelligence_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{intelligence_mod}" name="roll_intelligence"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{intelligence_mod}" name="roll_intelligence_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Intelligence check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{intelligence_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_intelligence"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -216,8 +212,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_wisdom_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{wisdom_mod}" name="roll_wisdom"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{wisdom_mod}" name="roll_wisdom_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Wisdom check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{wisdom_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_wisdom"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -234,8 +229,7 @@ Roll20 API features:
 									</td><td style="vertical-align:middle;">
 										<input type="checkbox" name="attr_charisma_save_prof" value="@{prof}" />
 									</td><td style="vertical-align:middle;">
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|No, |Yes,@{prof} +} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{charisma_mod}" name="roll_charisma"></button>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{Proficient?|Yes,@{prof} + |No,} ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{charisma_mod}" name="roll_charisma_p"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Charisma check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{charisma_mod}) ?{Proficient?|No, |Yes,+ (@{prof})}" name="roll_charisma"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -314,7 +308,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_acrobatics" value="@{acrobatics_prof}+@{dexterity_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{acrobatics}" name="roll_acrobatics"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Acrobatics check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{acrobatics}" name="roll_acrobatics"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -334,7 +328,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_animal_handling" value="@{animal_handling_prof}+@{wisdom_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{animal_handling}" name="roll_animal_handling"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Animal Handling check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{animal_handling}" name="roll_animal_handling"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -354,7 +348,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_arcana" value="@{arcana_prof}+@{intelligence_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{arcana}" name="roll_arcana"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Arcana check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{arcana}" name="roll_arcana"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -374,7 +368,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_athletics" value="@{athletics_prof}+@{strength_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{athletics}" name="roll_athletics"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Athletics check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{athletics}" name="roll_athletics"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -394,7 +388,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_deception" value="@{deception_prof}+@{charisma_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{deception}" name="roll_deception"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Deception check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{deception}" name="roll_deception"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -414,7 +408,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_history" value="@{history_prof}+@{intelligence_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{history}" name="roll_history"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [History check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{history}" name="roll_history"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -434,7 +428,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_insight" value="@{insight_prof}+@{wisdom_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{insight}" name="roll_insight"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Insight check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{insight}" name="roll_insight"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -454,7 +448,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_intimidation" value="@{intimidation_prof}+@{charisma_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{intimidation}" name="roll_intimidation"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Intimidation check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{intimidation}" name="roll_intimidation"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -474,7 +468,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_investigation" value="@{investigation_prof}+@{intelligence_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{investigation}" name="roll_investigation"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Investigation check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{investigation}" name="roll_investigation"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -494,7 +488,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_medicine" value="@{medicine_prof}+@{wisdom_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{medicine}" name="roll_medicine"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Medicine check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{medicine}" name="roll_medicine"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -514,7 +508,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_nature" value="@{nature_prof}+@{intelligence_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{nature}" name="roll_nature"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Nature check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{nature}" name="roll_nature"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -534,7 +528,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_perception" value="@{perception_prof}+@{wisdom_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{perception}" name="roll_perception"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Perception check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{perception}" name="roll_perception"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -554,7 +548,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_performance" value="@{performance_prof}+@{charisma_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{performance}" name="roll_performance"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Performance check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{performance}" name="roll_performance"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -574,7 +568,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_persuasion" value="@{persuasion_prof}+@{charisma_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{persuasion}" name="roll_persuasion"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Persuasion check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{persuasion}" name="roll_persuasion"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -594,7 +588,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_religion" value="@{religion_prof}+@{intelligence_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{religion}" name="roll_religion"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Religion check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{religion}" name="roll_religion"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -614,7 +608,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_sleight_of_hand" value="@{sleight_of_hand_prof}+@{dexterity_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{sleight_of_hand}" name="roll_sleight_of_hand"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Sleight of Hand check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{sleight_of_hand}" name="roll_sleight_of_hand"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -634,7 +628,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_stealth" value="@{stealth_prof}+@{dexterity_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{stealth}" name="roll_stealth"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Stealth check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{stealth}" name="roll_stealth"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -654,7 +648,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" type="number" name="attr_survival" value="@{survival_prof}+@{wisdom_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{survival}" name="roll_survival"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Survival check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{survival}" name="roll_survival"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -680,7 +674,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" style="margin-top: 6px;" type="number" name="attr_skill1" value="@{skill1_prof}+@{skill1_ability_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill1}" name="roll_skill1"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill1} for a @{skill1_name} check" name="roll_skill1"></button>
 									</td>
 								<tr>
 									<!-- start of row -->
@@ -704,7 +698,7 @@ Roll20 API features:
 									</td><td>
 										+<input class="sheet-numbox" style="margin-top: 6px;" type="number" name="attr_skill2" value="@{skill2_prof}+@{skill2_ability_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill2}" name="roll_skill2"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill2} for a @{skill2_name} check" name="roll_skill2"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
@@ -900,16 +894,8 @@ Roll20 API features:
 								<div class="sheet-icon-large sheet-icon-section-features" > </div> Features
 							</div>
 							<!-- set of entry boxes -->
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_features sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									<div class="sheet-repeated-entry">
-										<textarea class="sheet-paragraph-box" name="attr_feature"></textarea>
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
+							<div >
+								<textarea class="sheet-paragraph-box" name="attr_feature"></textarea>
 							</div>
 							
 							<!-- end of content -->
@@ -1137,7 +1123,7 @@ Roll20 API features:
 							<div class="sheet-subsection-nontable-row">
 								<div class="sheet-icon sheet-icon-death-saves" > </div> Death Saves:
 								<div class="sheet-inline">
-									<button class="sheet-roll-button" type="roll" value="/roll 1d20 vs 10" name="roll_death_save"></button>
+									<button class="sheet-roll-button" type="roll" value="/roll [Death save] 1d20 vs 10" name="roll_death_save"></button>
 								</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext">
@@ -1169,8 +1155,8 @@ Roll20 API features:
 											</div>
 											<div class="sheet-inline">
 												<div class="sheet-undertext sheet-text-align-left">Attack Bonus</div>
-												+<input class="sheet-numbox" type="number" name="attr_attack_bonus" value="@{attack_ability_mod}+@{attack_other}" disabled="disabled"/>
-												<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{attack_bonus}" name="roll_attack"></button>
+												+<input class="sheet-numbox" type="number" name="attr_attack_bonus" value="(@{attack_prof})+(@{attack_ability_mod})+(@{attack_other})" disabled="disabled"/>
+												<button class="sheet-roll-button" type="roll" value="/roll [Attack roll] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{attack_bonus} with @{attack_name}" name="roll_attack"></button>
 											</div>
 											<br>
 											<div class="sheet-inline" style="width: 16px"> </div>
@@ -1587,7 +1573,7 @@ Roll20 API features:
 							</div>
 							<div class="sheet-undertext">Mounts, animal companions, familiars, etc.</div>
 							<div class="sheet-entry-array">
-									<fieldset class="repeating_attacks sheet-repeater-fieldset">
+									<fieldset class="repeating_pets sheet-repeater-fieldset">
 										<!-- start of repeated section -->
 										
 										
@@ -1794,12 +1780,12 @@ Roll20 API features:
 							<div>
 								<div class="sheet-inline">
 									Save DC:
-									<input class="sheet-numbox" type="number" name="attr_spell_dc" value="8 + @{prof} + @{spell_ability_mod}" disabled="disabled"/>
+									<input class="sheet-numbox" type="number" name="attr_spell_dc" value="8 + (@{prof}) + (@{spell_ability_mod})" disabled="disabled"/>
 								</div>
 								<div class="sheet-inline">
 									Attack:
 									+<input class="sheet-numbox" type="number" name="attr_spell_attack" value="@{prof} + @{spell_ability_mod}" disabled="disabled"/>
-									<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{prof} + @{spell_ability_mod}" name="roll_constitution_p"></button>
+									<button class="sheet-roll-button" type="roll" value="/roll [Spell attack] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + (@{prof}) + @{spell_ability_mod}" name="roll_spell_attack"></button>
 								</div>
 							</div>
 							
@@ -2000,465 +1986,65 @@ Roll20 API features:
 							<br>
 							
 							<div style="padding-left: 16px;">
-							<!-- level 0 -->
-							<div>Cantrips</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl0_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl0_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl0_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl0_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl0_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl0_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl0_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl0_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl0_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl0_conc" value="1" />
+								<div class="sheet-entry-array">
+									<fieldset class="repeating_spellbook sheet-repeater-fieldset">
+										<!-- start of repeated section -->
+										
+										
+										<div class="sheet-repeated-entry sheet-subsection-nontable-row compendium-drop-target" style="border: none;">
+											<div class="sheet-inline sheet-text-align-center">
+												<div class="sheet-undertext">Prep'd</div>
+												<input type="checkbox" name="attr_spell_prep" value="1" />
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Level</div>
+												<select class="sheet-numbox"  style="width:4em; " name="attr_spell_lvl" accept="Level">
+													<option value="0">C</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+													<option value="6">6</option>
+													<option value="7">7</option>
+													<option value="8">8</option>
+													<option value="9">9</option>
+												</select>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext">Name</div>
+												<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_name" accept="Name"/>
+											</div>
+											<div class="sheet-inline sheet-text-align-right">
+												<div class="sheet-undertext">Source/pg.</div>
+												<input style="width: 5em;" type="text" name="attr_spell_pg"/>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Components</div>
+												<input style="width: 4em;" type="text" name="attr_spell_comps" value="VSM" accept="Components"/>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Materials</div>
+												<input style="width: 6em;" type="text" name="attr_spell_comps_stuff" accept="Material"/>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
+												<input style="width: 8em;" type="text" name="attr_spell_cast_time" accept="Casting Time"/>
+											</div>
+											<div class="sheet-inline sheet-text-align-center">
+												<div class="sheet-undertext">Ritual</div>
+												<input type="checkbox" name="attr_spell_ritual" value="Yes" accept="Ritual"/>
+											</div>
+											<div class="sheet-inline sheet-text-align-center">
+												<div class="sheet-undertext">Conc.</div>
+												<input type="checkbox" name="attr_spell_conc"  value="Yes" accept="Concentration"/>
+											</div>
+											
 										</div>
 										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 1 -->
-							<div>Level 1</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl1_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl1_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl1_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl1_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl1_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl1_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl1_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl1_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl1_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl1_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 2 -->
-							<div>Level 2</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl2_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl2_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl2_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl2_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl2_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl2_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl2_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl2_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl2_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl2_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 3 -->
-							<div>Level 3</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl3_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl3_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl3_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl3_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl3_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl3_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl3_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl3_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl3_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl3_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 4 -->
-							<div>Level 4</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl4_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl4_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl4_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl4_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl4_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl4_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl4_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl4_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl4_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl4_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 5 -->
-							<div>Level 5</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl5_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl5_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl5_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl5_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl5_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl5_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl5_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl5_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl5_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl5_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 6 -->
-							<div>Level 6</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl6_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl6_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl6_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl6_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl6_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl6_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl6_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl6_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl6_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl6_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 7 -->
-							<div>Level 7</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl7_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl7_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl7_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl7_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl7_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl7_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl7_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl7_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl7_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl7_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 8 -->
-							<div>Level 8</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl8_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl8_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl8_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl8_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl8_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl8_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl8_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl8_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl8_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl8_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
-							
-							<!-- level 9 -->
-							<div>Level 9</div>
-							<div class="sheet-entry-array">
-								<fieldset class="repeating_attacks sheet-repeater-fieldset">
-									<!-- start of repeated section -->
-									
-									
-									<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Prep'd</div>
-											<input type="checkbox" name="attr_spell_lvl9_prep" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Name</div>
-											<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_lvl9_name"/>
-										</div>
-										<div class="sheet-inline sheet-text-align-right">
-											<div class="sheet-undertext">Source/pg.</div>
-											<input style="width: 5em;" type="text" name="attr_spell_lvl9_pg"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-left">Components</div>
-											<input type="checkbox" name="attr_spell_lvl9_comps_v" value="1" />V
-											<input type="checkbox" name="attr_spell_lvl9_comps_s" value="1" />S
-											<input type="checkbox" name="attr_spell_lvl9_comps_m" value="1" />M:
-											<input style="width: 6em;" type="text" name="attr_spell_lvl9_comps_stuff"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-											<input style="width: 8em;" type="text" name="attr_spell_lvl9_cast_time"/>
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Ritual</div>
-											<input type="checkbox" name="attr_spell_lvl9_ritual" value="1" />
-										</div>
-										<div class="sheet-inline">
-											<div class="sheet-undertext">Conc.</div>
-											<input type="checkbox" name="attr_spell_lvl9_conc" value="1" />
-										</div>
-										
-									</div>
-									
-									<!-- end of repeated section -->
-								</fieldset>
-							</div>
+										<!-- end of repeated section -->
+									</fieldset>
+								</div>
 							</div>
 							
 							<!-- end of content -->
