@@ -30,6 +30,7 @@ input.sheet-tab-button5:checked ~ div.sheet-tab5 {
 .sheet-text-align-right { text-align: right; }
 .sheet-inline {
 	display: inline-block;
+	vertical-align: top;
 }
 .sheet-header {
 	padding: 8px 16px;
@@ -80,16 +81,17 @@ input.sheet-tab-button5:checked ~ div.sheet-tab5 {
 	border: none;
 }
 .sheet-numbox {
-	width: 3em;
+	width: 4em;
 }
 .sheet-long-numbox {
-	width: 100px;
+	width: 7em;
 }
 .sheet-long-text-input {
 	width: 150px;
 }
 .sheet-paragraph-box {
 	width: calc(100% - 16px);
+	height: 4em;
 }
 .sheet-big-bold {
 	font-size: 14pt;
@@ -105,6 +107,9 @@ input.sheet-tab-button5:checked ~ div.sheet-tab5 {
 	font-size: 8pt;
 	font-weight: normal;
 	font-family: Helvetica, Arial, sans-serif;
+}
+.sheet-skill-name {
+	width: 120px;
 }
 /**********************/
 

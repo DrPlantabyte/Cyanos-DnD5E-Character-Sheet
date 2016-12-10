@@ -5,9 +5,10 @@ Roll20 API limitations:
 - No javascript
 - No embeded Base64 images
 - No SVG
-- (no in-page graphics data)
+- (in short, no in-page graphics data)
 - All CSS classes must start with "sheet-", except for those starting with "attr_", "repeating_", or "roll_" 
-- The character sheet will generally be seen inside a squarish hovering window
+- The character sheet will generally be seen inside a squarish hovering window roughly 800 pixels wide (on a desktop computer)
+- "float:right;" is kinda janky
 
 Roll20 API features:
 - Automated list editor:
@@ -62,13 +63,13 @@ Roll20 API features:
 			<div class="sheet-undertext">Level</div>
 			<input class="sheet-numbox" type="number" name="attr_level"  min="0"  max="20" step="1" value="1"/>
 		</div>
-		<div class="sheet-header-block" style="display:float;float:right;">
+		<div class="sheet-header-block" >
 			<div class="sheet-undertext">Experience Points</div>
-			<input class="sheet-long-numbox" type="number" name="attr_xp"  min="0" step="1" value="0"/>
+			<input class="sheet-long-numbox" style="width: 7em;" type="number" name="attr_xp"  min="0" step="1" value="0"/>
 		</div>
 		<br>
 		<div class="sheet-header-block">
-			<input type="checkbox" name="attr_inspiration" value="1" /><span class="sheet-big-bold-fancy">Inspiration</span>
+			<span class="sheet-big-bold-fancy">Inspiration:</span> <input type="checkbox" name="attr_inspiration" value="1" />
 		</div>
 		<div class="sheet-header-block">
 			<span class="sheet-big-bold-fancy">Prof.: +</span>
@@ -134,7 +135,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-strength"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">STR</div><div class="sheet-undertext sheet-text-align-center">Strength</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_strength" min="0" step="1" value="8"/>
@@ -152,7 +153,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-dexterity"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">DEX</div><div class="sheet-undertext sheet-text-align-center">Dexterity</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_dexterity" min="0" step="1" value="8"/>
@@ -170,7 +171,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-constitution"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">CON</div><div class="sheet-undertext sheet-text-align-center">Constitution</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_constitution" min="0" step="1" value="8"/>
@@ -188,7 +189,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-intelligence"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">INT</div><div class="sheet-undertext sheet-text-align-center">Intelligence</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_intelligence" min="0" step="1" value="8"/>
@@ -206,7 +207,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-wisdom"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">WIS</div><div class="sheet-undertext sheet-text-align-center">Wisdom</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_wisdom" min="0" step="1" value="8"/>
@@ -224,7 +225,7 @@ Roll20 API features:
 									<!-- start of row -->
 									<td>
 										<div class="sheet-icon-large sheet-icon-charisma"> </div>
-									</td><td>
+									</td><td style="vertical-align:middle;">
 										<div class="sheet-big-bold">CHA</div><div class="sheet-undertext sheet-text-align-center">Charisma</div>
 									</td><td style="vertical-align:middle;">
 										<input class="sheet-numbox" type="number" name="attr_charisma" min="0" step="1" value="8"/>
@@ -302,7 +303,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-acrobatics"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Acrobatics (Dex)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Acrobatics (Dex)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_acrobatics_prof">
 											<option value="0">0</option>
@@ -322,7 +323,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-animal-handling"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Animal Handling (Wis)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Animal Handling (Wis)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_animal_handling_prof">
 											<option value="0">0</option>
@@ -342,7 +343,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-arcana"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Arcana (Int)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Arcana (Int)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_arcana_prof">
 											<option value="0">0</option>
@@ -362,7 +363,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-athletics"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Athletics (Str)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Athletics (Str)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_athletics_prof">
 											<option value="0">0</option>
@@ -382,7 +383,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-deception"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Deception (Cha)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Deception (Cha)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_deception_prof">
 											<option value="0">0</option>
@@ -402,7 +403,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-history"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">History (Int)</div>
+										<div class="sheet-section-line-item sheet-skill-name">History (Int)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_history_prof">
 											<option value="0">0</option>
@@ -422,7 +423,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-insight"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Insight (Wis)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Insight (Wis)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_insight_prof">
 											<option value="0">0</option>
@@ -442,7 +443,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-intimidation"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Intimidation (Cha)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Intimidation (Cha)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_intimidation_prof">
 											<option value="0">0</option>
@@ -462,7 +463,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-investigation"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Investigation (Int)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Investigation (Int)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_investigation_prof">
 											<option value="0">0</option>
@@ -482,7 +483,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-medicine"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Medicine (Wis)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Medicine (Wis)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_medicine_prof">
 											<option value="0">0</option>
@@ -502,7 +503,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-nature"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Nature (Int)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Nature (Int)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_nature_prof">
 											<option value="0">0</option>
@@ -522,7 +523,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-perception"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Perception (Wis)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Perception (Wis)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_perception_prof">
 											<option value="0">0</option>
@@ -542,7 +543,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-performance"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Performance (Cha)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Performance (Cha)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_performance_prof">
 											<option value="0">0</option>
@@ -562,7 +563,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-persuasion"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Persuasion (Cha)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Persuasion (Cha)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_persuasion_prof">
 											<option value="0">0</option>
@@ -582,7 +583,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-religion"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Religion (Int)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Religion (Int)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_religion_prof">
 											<option value="0">0</option>
@@ -602,7 +603,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-sleight-of-hand"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Sleight of Hand (Dex)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Sleight of Hand (Dex)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_sleight_of_hand_prof">
 											<option value="0">0</option>
@@ -622,7 +623,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-stealth"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Stealth (Dex)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Stealth (Dex)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_stealth_prof">
 											<option value="0">0</option>
@@ -642,7 +643,7 @@ Roll20 API features:
 									<td>
 										<div class="sheet-icon sheet-icon-skill-survival"> </div>
 									</td><td>
-										<div class="sheet-section-line-item">Survival (Wis)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Survival (Wis)</div>
 									</td><td>
 										<select class="sheet-numbox" name="attr_survival_prof">
 											<option value="0">0</option>
@@ -660,8 +661,8 @@ Roll20 API features:
 								<tr>
 									<!-- start of row -->
 									<td colspan="2">
-										<input type="text" name="attr_skill1_name" value="" style="width:8em">
-										<select class="sheet-numbox"  style="width:3.5em" name="attr_skill1_ability_mod">
+										<input type="text" name="attr_skill1_name" value="" style="width:7em">
+										<select class="sheet-numbox"  style="width:4em; margin-top: 6px;" name="attr_skill1_ability_mod">
 											<option value="@{strength_mod}">Str</option>
 											<option value="@{dexterity_mod}">Dex</option>
 											<option value="@{constitution_mod}">Con</option>
@@ -670,22 +671,22 @@ Roll20 API features:
 											<option value="@{charisma_mod}">Cha</option>
 										</select>
 									</td><td>
-										<select class="sheet-numbox" name="attr_skill1_prof">
+										<select class="sheet-numbox" style="margin-top: 6px;" name="attr_skill1_prof">
 											<option value="0">0</option>
 											<option value="floor(@{prof} / 2)">½P</option>
 											<option value="@{prof}">P</option>
 											<option value="(2*@{prof})">2×P</option>
 										</select>
 									</td><td>
-										+<input class="sheet-numbox" type="number" name="attr_skill1" value="@{skill1_prof}+@{skill1_ability_mod}" disabled="disabled">
+										+<input class="sheet-numbox" style="margin-top: 6px;" type="number" name="attr_skill1" value="@{skill1_prof}+@{skill1_ability_mod}" disabled="disabled">
 									</td><td>
 										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill1}" name="roll_skill1"></button>
 									</td>
 								<tr>
 									<!-- start of row -->
 									<td colspan="2">
-										<input type="text" name="attr_skill2_name" value="" style="width:8em">
-										<select class="sheet-numbox"  style="width:3.5em" name="attr_skill2_ability_mod">
+										<input type="text" name="attr_skill2_name" value="" style="width:7em">
+										<select class="sheet-numbox"  style="width:4em; margin-top: 6px;" name="attr_skill2_ability_mod">
 											<option value="@{strength_mod}">Str</option>
 											<option value="@{dexterity_mod}">Dex</option>
 											<option value="@{constitution_mod}">Con</option>
@@ -694,14 +695,14 @@ Roll20 API features:
 											<option value="@{charisma_mod}">Cha</option>
 										</select>
 									</td><td>
-										<select class="sheet-numbox" name="attr_skill2_prof">
+										<select class="sheet-numbox" style="margin-top: 6px;" name="attr_skill2_prof">
 											<option value="0">0</option>
 											<option value="floor(@{prof} / 2)">½P</option>
 											<option value="@{prof}">P</option>
 											<option value="(2*@{prof})">2×P</option>
 										</select>
 									</td><td>
-										+<input class="sheet-numbox" type="number" name="attr_skill2" value="@{skill2_prof}+@{skill2_ability_mod}" disabled="disabled">
+										+<input class="sheet-numbox" style="margin-top: 6px;" type="number" name="attr_skill2" value="@{skill2_prof}+@{skill2_ability_mod}" disabled="disabled">
 									</td><td>
 										<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{skill2}" name="roll_skill2"></button>
 									</td>
@@ -728,55 +729,7 @@ Roll20 API features:
 			</table>
 		</div>
 		<!-- end skills box -->
-		<br>
-		<!-- prof box -->
-		<div>
-			<!-- box -->
-			<table class="sheet-section-layout-table" >
-				<tr>
-					<!-- top bar -->
-					<td class="sheet-scroll-left"> <!-- left corner -->
-					</td>
-					<td class="sheet-scroll-roll">
-						<!-- scroll roll -->
-					</td>
-					<td class="sheet-scroll-right"> <!-- right corner -->
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<!-- spacer -->
-					</td>
-					<td class="sheet-paper-background">
-						<div class="sheet-section-frame sheet-section-content">
-							<!-- content begin -->
-							
-							<!-- section title bar -->
-							<div class="sheet-section-title-bar">
-								<div class="sheet-icon-large sheet-icon-section-proficiencies" > </div> Proficiencies
-							</div>
-							<textarea class="sheet-paragraph-box" name="attr_proficiencies" value="Languages: "></textarea>
-							
-							<!-- end of content -->
-						</div>
-					</td>
-					<td>
-						<!-- spacer -->
-					</td>
-				</tr>
-				<tr>
-					<!-- bottom bar -->
-					<td class="sheet-scroll-left"> <!-- left corner -->
-					</td>
-					<td class="sheet-scroll-roll">
-						<!-- scroll roll -->
-					</td>
-					<td class="sheet-scroll-right"> <!-- right corner -->
-					</td>
-				</tr>
-			</table>
-		</div>
-		<!-- end prof box -->
+		
 		
 		<!-- END OF COLUMN 1 -->
 		</div>
@@ -813,9 +766,9 @@ Roll20 API features:
 							</div>
 							
 							<!-- fill-ins -->
-							<div class="sheet-half-width">
+							<div class="sheet-half-width" style="vertical-align:top;">
 								<div class="sheet-undertext">Alignment</div>
-								<select  name="attr_alignment">
+								<select style="width: 100%"  name="attr_alignment">
 									<option value="None">Unaligned</option>
 									<option value="LG">Lawful Good</option>
 									<option value="NG">Good</option>
@@ -828,9 +781,9 @@ Roll20 API features:
 									<option value="CE">Chaotic Evil</option>
 								</select>
 							</div>
-							<div class="sheet-half-width">
+							<div class="sheet-half-width" style="vertical-align:top;">
 								<div class="sheet-undertext">Background</div>
-								<input type="text" name="attr_background"/>
+								<input style="width: 100%" type="text" name="attr_background"/>
 							</div>
 							
 							<!-- multi-line text boxes -->
@@ -979,6 +932,55 @@ Roll20 API features:
 			</table>
 		</div>
 		<!-- end features box -->
+		<br>
+		<!-- prof box -->
+		<div>
+			<!-- box -->
+			<table class="sheet-section-layout-table" >
+				<tr>
+					<!-- top bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- spacer -->
+					</td>
+					<td class="sheet-paper-background">
+						<div class="sheet-section-frame sheet-section-content">
+							<!-- content begin -->
+							
+							<!-- section title bar -->
+							<div class="sheet-section-title-bar">
+								<div class="sheet-icon-large sheet-icon-section-proficiencies" > </div> Proficiencies
+							</div>
+							<textarea class="sheet-paragraph-box" name="attr_proficiencies" value="Languages: "></textarea>
+							
+							<!-- end of content -->
+						</div>
+					</td>
+					<td>
+						<!-- spacer -->
+					</td>
+				</tr>
+				<tr>
+					<!-- bottom bar -->
+					<td class="sheet-scroll-left"> <!-- left corner -->
+					</td>
+					<td class="sheet-scroll-roll">
+						<!-- scroll roll -->
+					</td>
+					<td class="sheet-scroll-right"> <!-- right corner -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- end prof box -->
 		
 		
 		<!-- END OF COLUMN 2 -->
@@ -1024,19 +1026,29 @@ Roll20 API features:
 							</div>
 							
 							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
-								<div class="sheet-icon sheet-icon-ac" > </div> AC:
+							    <div class="sheet-inline">
+							        <div class="sheet-undertext">&nbsp;</div>
+							    	<div class="sheet-icon sheet-icon-ac" > </div> AC:
+							    </div>
 								<div class="sheet-inline">
+							        <div class="sheet-undertext">&nbsp;</div>
 									<input class="sheet-numbox" type="number" name="attr_ac" value="@{ac_base}+@{ac_ability}+@{ac_other}" disabled="disabled">
 								</div>
-								=
+								<div class="sheet-inline">
+							        <div class="sheet-undertext">&nbsp;</div>
+							    	=
+							    </div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Armor</div>
 									<input class="sheet-numbox" type="number" name="attr_ac_base" min="10" step="1" value="10" />
 								</div>
-								+
+								<div class="sheet-inline">
+							        <div class="sheet-undertext">&nbsp;</div>
+							    	+
+							    </div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Ability</div>
-									<select class="sheet-numbox"  style="width:3.5em" name="attr_ac_ability">
+									<select class="sheet-numbox"  style="width:4.5em" name="attr_ac_ability">
 										<option value="0">N/A</option>
 										<option value="@{strength_mod}">Str</option>
 										<option value="@{dexterity_mod}">Dex</option>
@@ -1046,7 +1058,10 @@ Roll20 API features:
 										<option value="@{charisma_mod}">Cha</option>
 									</select>
 								</div>
-								+
+								<div class="sheet-inline">
+							        <div class="sheet-undertext">&nbsp;</div>
+							    	+
+							    </div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Bonus</div>
 									<input class="sheet-numbox" type="number" name="attr_ac_other" step="1" value="0" />
@@ -1056,28 +1071,40 @@ Roll20 API features:
 							
 								<div class="sheet-half-width">
 									<div class="sheet-undertext">Equipped Armor</div>
-									<input type="text" name="attr_armor_item"/>
+									<input style="width:100%;" type="text" name="attr_armor_item"/>
 								</div>
 								
 								<div class="sheet-half-width">
 									<div class="sheet-undertext">Equipped Shield</div>
-									<input type="text" name="attr_shield_item"/>
+									<input style="width:100%;" type="text" name="attr_shield_item"/>
 								</div>
 							</div>
 							
 							<div class="sheet-subsection-nontable-row">
-								<div class="sheet-icon sheet-icon-hp" > </div> HP:
-								(
+							    <div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								<div class="sheet-icon sheet-icon-hp" > </div>
+    							</div>
+    							<div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								HP: (
+								</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Temp.</div>
 									<input class="sheet-numbox" type="number" name="attr_hp_temp" min="0" step="1" value="0" />
 								</div>
-								)
+								 <div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								)
+    							</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Current</div>
 									<input class="sheet-numbox" type="number" name="attr_hp_current" min="0" step="1" value="1" />
 								</div>
-								/
+								 <div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								/
+    							</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Max</div>
 									<input class="sheet-numbox" type="number" name="attr_hp_max" min="1" step="1" value="1" />
@@ -1085,15 +1112,25 @@ Roll20 API features:
 							</div>
 							
 							<div class="sheet-subsection-nontable-row">
-								<div class="sheet-icon sheet-icon-hd" > </div> HD:
+								<div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								<div class="sheet-icon sheet-icon-hd" > </div>
+    							</div>
+    							<div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								HD:
+    							</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Remaining</div>
-									<input style="width: 5em;" type="text" name="attr_hd_remaining" />
+									<input style="width: 8em;" type="text" name="attr_hd_remaining" />
 								</div>
-								/
+								<div class="sheet-inline" >
+							        <div class="sheet-undertext">&nbsp;</div>
+    								/
+    							</div>
 								<div class="sheet-inline">
 									<div class="sheet-undertext sheet-text-align-center">Total</div>
-									<input style="width: 5em;" type="text" name="attr_hd_total" />
+									<input style="width: 8em;" type="text" name="attr_hd_total" />
 								</div>
 							</div>
 							
@@ -1131,15 +1168,15 @@ Roll20 API features:
 												<input type="text" name="attr_attack_name" value="" style="width:90%">
 											</div>
 											<div class="sheet-inline">
-												<div class="sheet-undertext sheet-text-align-center">Attack Bonus</div>
+												<div class="sheet-undertext sheet-text-align-left">Attack Bonus</div>
 												+<input class="sheet-numbox" type="number" name="attr_attack_bonus" value="@{attack_ability_mod}+@{attack_other}" disabled="disabled"/>
+												<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{attack_bonus}" name="roll_attack"></button>
 											</div>
-											<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{attack_bonus}" name="roll_attack"></button>
 											<br>
 											<div class="sheet-inline" style="width: 16px"> </div>
 											<div class="sheet-inline">
 												<div class="sheet-undertext sheet-text-align-center">Ability</div>
-												<select class="sheet-numbox"  style="width:3.5em" name="attr_attack_ability_mod">
+												<select class="sheet-numbox"  style="width:4.5em" name="attr_attack_ability_mod">
 													<option value="@{strength_mod}">Str</option>
 													<option value="@{dexterity_mod}">Dex</option>
 													<option value="@{constitution_mod}">Con</option>
@@ -1151,13 +1188,13 @@ Roll20 API features:
 											</div>
 											<div class="sheet-inline">
 												<div class="sheet-undertext sheet-text-align-center">Prof.?</div>
-												<select class="sheet-numbox"  style="width:3.5em" name="attr_attack_prof">
+												<select class="sheet-numbox"  style="width:4.5em" name="attr_attack_prof">
 													<option value="@{prof}">Yes</option>
 													<option value="0">No</option>
 												</select>
 											</div>
 											<div class="sheet-inline">
-												<div class="sheet-undertext sheet-text-align-center">Misc.</div>
+												<div class="sheet-undertext sheet-text-align-center">Misc. Mod.</div>
 												<input class="sheet-numbox" type="number" name="attr_attack_other" step="1" value="0" />
 											</div>
 											<div class="sheet-undertext">On Hit:</div>
@@ -1314,13 +1351,13 @@ Roll20 API features:
 							
 							<!-- ammo -->
 							<div class="sheet-subsection-nontable-row" style="border-bottom: none;">
-								<div class="sheet-icon sheet-icon-quiver" > </div> Quiver: 
+								<div class="sheet-icon sheet-icon-quiver" > </div>
+									Quiver: 
 								<div class="sheet-inline sheet-half-width">
-									<input type="text" name="attr_ammo_item"/>
+									<input style="width: 100%;" type="text" name="attr_ammo_item"/>
 								</div>
 								<div class="sheet-inline">
-									&nbsp;
-									<input class="sheet-numbox" type="number" name="attr_ammo_count" min="0" step="1" value="0">
+									<input class="sheet-numbox" style="margin-top: 4px;" type="number" name="attr_ammo_count" min="0" step="1" value="0">
 								</div>
 							</div>
 							
@@ -1351,69 +1388,69 @@ Roll20 API features:
 								<div>
 									<div class="sheet-inline sheet-half-width">
 										<div class="sheet-undertext">Coin</div>
-										<input style="text-align: right;" type="text" value="pp" name="attr_coin1_name"/>
+										<input style="text-align: right; width:100%" type="text" value="pp" name="attr_coin1_name"/>
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
 										<div class="sheet-undertext">Count</div>
-										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin1_count" min="0" step="1" value="0">
+										<input class="sheet-numbox" style="width: 5em; margin-top: 4px" type="number" name="attr_coin1_count" min="0" step="1" value="0">
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
 										<div class="sheet-undertext">Value/Coin</div>
-										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin1_value" min="0" step="0.01"  value="10">
+										<input class="sheet-numbox" style="width: 4em; margin-top: 4px" type="number" name="attr_coin1_value" min="0" step="0.01"  value="10">
 									</div>
 								</div>
 								<div>
 									<div class="sheet-inline sheet-half-width">
-										<input style="text-align: right;" type="text" value="gp" name="attr_coin2_name"/>
+										<input style="text-align: right; width:100%" type="text" value="gp" name="attr_coin2_name"/>
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin2_count" min="0" step="1" value="0">
+										<input class="sheet-numbox" style="width: 5em; margin-top: 4px" type="number" name="attr_coin2_count" min="0" step="1" value="0">
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin2_value" min="0" step="0.01"  value="1">
+										<input class="sheet-numbox" style="width: 4em; margin-top: 4px" type="number" name="attr_coin2_value" min="0" step="0.01"  value="1">
 									</div>
 								</div>
 								<div>
 									<div class="sheet-inline sheet-half-width">
-										<input style="text-align: right;" type="text" value="ep" name="attr_coin3_name"/>
+										<input style="text-align: right; width:100%" type="text" value="ep" name="attr_coin3_name"/>
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin3_count" min="0" step="1" value="0">
+										<input class="sheet-numbox" style="width: 5em; margin-top: 4px" type="number" name="attr_coin3_count" min="0" step="1" value="0">
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin3_value" min="0" step="0.01"  value="0.5">
+										<input class="sheet-numbox" style="width: 4em; margin-top: 4px" type="number" name="attr_coin3_value" min="0" step="0.01"  value="0.5">
 									</div>
 								</div>
 								<div>
 									<div class="sheet-inline sheet-half-width">
-										<input style="text-align: right;" type="text" value="sp" name="attr_coin4_name"/>
+										<input style="text-align: right; width:100%" type="text" value="sp" name="attr_coin4_name"/>
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin4_count" min="0" step="1" value="0">
+										<input class="sheet-numbox" style="width: 5em; margin-top: 4px" type="number" name="attr_coin4_count" min="0" step="1" value="0">
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin4_value" min="0" step="0.01"  value="0.1">
+										<input class="sheet-numbox" style="width: 4em; margin-top: 4px" type="number" name="attr_coin4_value" min="0" step="0.01"  value="0.1">
 									</div>
 								</div>
 								<div>
 									<div class="sheet-inline sheet-half-width">
-										<input style="text-align: right;" type="text" value="cp" name="attr_coin5_name"/>
+										<input style="text-align: right; width:100%" type="text" value="cp" name="attr_coin5_name"/>
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 5em;" type="number" name="attr_coin5_count" min="0" step="1" value="0">
+										<input class="sheet-numbox" style="width: 5em; margin-top: 4px" type="number" name="attr_coin5_count" min="0" step="1" value="0">
 									</div>
 									&nbsp;
 									<div class="sheet-inline">
-										<input class="sheet-numbox" style="width: 4em;" type="number" name="attr_coin5_value" min="0" step="0.01"  value="0.01">
+										<input class="sheet-numbox" style="width: 4em; margin-top: 4px" type="number" name="attr_coin5_value" min="0" step="0.01"  value="0.01">
 									</div>
 								</div>
 								<div style="width:100%; text-align: right;">
@@ -1586,27 +1623,27 @@ Roll20 API features:
 											<div class="sheet-subsection-nontable-row">
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Str</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_strength" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_strength" step="1" min="0" value="8" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Dex</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_dexterity" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_dexterity" step="1" min="0" value="8" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Con</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_constitution" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_constitution" step="1" min="0" value="8" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Int</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_intelligence" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_intelligence" step="1" min="0" value="8" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Wis</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_wisdom" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_wisdom" step="1" min="0" value="8" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Cha</div>
-													<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_pet_charisma" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_charisma" step="1" min="0" value="8" />
 												</div>
 											</div>
 											<div class="sheet-subsection-nontable-row">
@@ -1744,7 +1781,7 @@ Roll20 API features:
 							<div>
 								<div class="sheet-inline sheet-full-width">
 									Spellcasting Ability:
-									<select class="sheet-numbox"  style="width:3.5em" name="attr_spell_ability_mod">
+									<select class="sheet-numbox"  style="width:5em" name="attr_spell_ability_mod">
 										<option value="@{strength_mod}">Str</option>
 										<option value="@{dexterity_mod}">Dex</option>
 										<option value="@{constitution_mod}">Con</option>
@@ -1755,11 +1792,11 @@ Roll20 API features:
 								</div>
 							</div>
 							<div>
-								<div class="sheet-inline sheet-half-width">
+								<div class="sheet-inline">
 									Save DC:
 									<input class="sheet-numbox" type="number" name="attr_spell_dc" value="8 + @{prof} + @{spell_ability_mod}" disabled="disabled"/>
 								</div>
-								<div class="sheet-inline sheet-half-width">
+								<div class="sheet-inline">
 									Attack:
 									+<input class="sheet-numbox" type="number" name="attr_spell_attack" value="@{prof} + @{spell_ability_mod}" disabled="disabled"/>
 									<button class="sheet-roll-button" type="roll" value="/roll ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{prof} + @{spell_ability_mod}" name="roll_constitution_p"></button>
@@ -1768,8 +1805,8 @@ Roll20 API features:
 							
 							<!-- ritual casting -->
 							<div>
-								<div class="sheet-inline sheet-full-width">
-									Ritual Casting:
+								<div class="sheet-inline sheet-full-width" >
+									<div class="sheet-inline" style="vertical-align: bottom; padding-bottom: 2px;">Ritual Casting: </div>
 									<div class="sheet-inline">
 										<div class="sheet-undertext">Classes whose rituals you can cast</div>
 										<input style="width: 100%" type="text" name="attr_ritual_classes"/>
@@ -1842,65 +1879,65 @@ Roll20 API features:
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									<div class="sheet-undertext">Available / Per Day</div>
 									Level 5:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level5_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level5_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level5" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level5" step="1" min="0" value="0" />
 								</div>
 							</div>
 							<div class="sheet-text-align-right" style="padding:0px;">
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 1:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level1_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level1_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level1" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level1" step="1" min="0" value="0" />
 								</div>
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 6:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level6_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level6_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level6" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level6" step="1" min="0" value="0" />
 								</div>
 							</div>
 							<div class="sheet-text-align-right" style="padding:0px;">
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 2:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level2_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level2_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level2" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level2" step="1" min="0" value="0" />
 								</div>
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 7:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level7_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level7_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level7" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level7" step="1" min="0" value="0" />
 								</div>
 							</div>
 							<div class="sheet-text-align-right" style="padding:0px;">
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 3:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level3_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level3_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level3" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level3" step="1" min="0" value="0" />
 								</div>
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 8:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level8_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level8_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level8" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level8" step="1" min="0" value="0" />
 								</div>
 							</div>
 							<div class="sheet-text-align-right" style="padding:0px;">
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 4:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level4_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level4_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level4" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level4" step="1" min="0" value="0" />
 								</div>
 								<div class="sheet-inline sheet-half-width sheet-section-line-item">
 									Level 9:
-									<input class="sheet-numbox" style="width:2.5em;" type="number"  name="attr_spellslots_level9_current" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number"  name="attr_spellslots_level9_current" step="1" min="0" value="0" />
 									/
-									<input class="sheet-numbox" style="width:2.5em;" type="number" name="attr_spellslots_level9" step="1" min="0" value="0" />
+									<input class="sheet-numbox" style="width:3em;" type="number" name="attr_spellslots_level9" step="1" min="0" value="0" />
 								</div>
 							</div>
 							
@@ -1962,8 +1999,9 @@ Roll20 API features:
 							</div>
 							<br>
 							
+							<div style="padding-left: 16px;">
 							<!-- level 0 -->
-							<div style="padding-left: 16px;">Cantrips</div>
+							<div>Cantrips</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2009,7 +2047,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 1 -->
-							<div style="padding-left: 16px;">Level 1</div>
+							<div>Level 1</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2055,7 +2093,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 2 -->
-							<div style="padding-left: 16px;">Level 2</div>
+							<div>Level 2</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2101,7 +2139,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 3 -->
-							<div style="padding-left: 16px;">Level 3</div>
+							<div>Level 3</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2147,7 +2185,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 4 -->
-							<div style="padding-left: 16px;">Level 4</div>
+							<div>Level 4</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2193,7 +2231,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 5 -->
-							<div style="padding-left: 16px;">Level 5</div>
+							<div>Level 5</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2239,7 +2277,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 6 -->
-							<div style="padding-left: 16px;">Level 6</div>
+							<div>Level 6</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2285,7 +2323,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 7 -->
-							<div style="padding-left: 16px;">Level 7</div>
+							<div>Level 7</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2331,7 +2369,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 8 -->
-							<div style="padding-left: 16px;">Level 8</div>
+							<div>Level 8</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2377,7 +2415,7 @@ Roll20 API features:
 							</div>
 							
 							<!-- level 9 -->
-							<div style="padding-left: 16px;">Level 9</div>
+							<div>Level 9</div>
 							<div class="sheet-entry-array">
 								<fieldset class="repeating_attacks sheet-repeater-fieldset">
 									<!-- start of repeated section -->
@@ -2420,6 +2458,7 @@ Roll20 API features:
 									
 									<!-- end of repeated section -->
 								</fieldset>
+							</div>
 							</div>
 							
 							<!-- end of content -->
