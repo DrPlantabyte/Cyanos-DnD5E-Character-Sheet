@@ -901,7 +901,7 @@ Roll20 API features:
 							</div>
 							<!-- set of entry boxes -->
 							<div >
-								<textarea class="sheet-paragraph-box" name="attr_feature"></textarea>
+								<textarea class="sheet-long-list-box" name="attr_feature"></textarea>
 							</div>
 							
 							<!-- end of content -->
@@ -951,7 +951,7 @@ Roll20 API features:
 							<div class="sheet-section-title-bar">
 								<div class="sheet-icon-large sheet-icon-section-proficiencies" > </div> Proficiencies
 							</div>
-							<textarea class="sheet-paragraph-box" name="attr_proficiencies" value="Languages: "></textarea>
+							<textarea class="sheet-list-box" name="attr_proficiencies" value="Languages: "></textarea>
 							
 							<!-- end of content -->
 						</div>
@@ -1271,7 +1271,7 @@ Roll20 API features:
 								<div class="sheet-cell-header">Main Compartment</div>
 								<div class="sheet-undertext">Witdrawing an item takes 1d4 rounds</div>
 								<div class="sheet-undertext">Limit 6 items and less than 40 lb. or else encumbered</div>
-								<textarea class="sheet-paragraph-box" name="attr_backpack_contents"></textarea>
+								<textarea class="sheet-list-box" name="attr_backpack_contents"></textarea>
 							</div>
 							<!-- end of content -->
 						</div>
@@ -1457,7 +1457,7 @@ Roll20 API features:
 								<div class="sheet-icon sheet-icon-trinkets" > </div>
 								Trinkets
 								<div class="sheet-undertext">Up to 12 fist-sized items</div>
-								<textarea class="sheet-paragraph-box" name="attr_trinkets"></textarea>
+								<textarea class="sheet-list-box" name="attr_trinkets"></textarea>
 							</div>
 							
 							
@@ -1509,7 +1509,7 @@ Roll20 API features:
 								Encumbrance
 							</div>
 							<p>
-							Each equipment compartment has a limit to the number of items it can hold, the total weight it can carry, and/or have a minimum Strength score requirement. Violating any of these conditions will cause you to be <b>encumbered</b>.
+							Each equipment compartment has a limit to the number of items it can hold, the total weight it can carry, and/or has a minimum Strength score requirement. Violating any of these conditions will cause you to be <b>encumbered</b>.
 							</p>
 							<p>
 							<b>Encumbered.</b> Your speed decreases by 10 ft. and you suffer disadvantage on all skill checks, attack rolls, and saving throws.
@@ -1704,7 +1704,7 @@ Roll20 API features:
 								<div class="sheet-icon-large sheet-icon-section-deeds" > </div> Property
 							</div>
 							<div class="sheet-undertext">Realestate, deeds, non-portable possessions, etc.</div>
-							<textarea class="sheet-paragraph-box" name="attr_property"></textarea>
+							<textarea class="sheet-long-list-box" name="attr_property"></textarea>
 							
 							<!-- end of content -->
 						</div>
@@ -2051,6 +2051,10 @@ Roll20 API features:
 												<div class="sheet-undertext">Conc.</div>
 												<input type="checkbox" name="attr_spell_conc"  value="Yes" accept="Concentration"/>
 											</div>
+											<span class="sheet-undertext" style="vertical-align: bottom;">&#8505;</span><input class="sheet-spell-info-button" style="vertical-align: bottom;" type="checkbox"/>
+											<div class="sheet-spell-info">
+												<textarea class="sheet-spell-paragraph-box" name="attr_spell_desc" value="" accept="Content"></textarea>
+											</div>
 											
 										</div>
 										
@@ -2122,7 +2126,7 @@ Roll20 API features:
 								<div class="sheet-icon-large sheet-icon-section-contacts" > </div> Contacts
 							</div>
 							<div class="sheet-undertext">People you've met whome you might want to re-visit</div>
-							<textarea class="sheet-paragraph-box" name="attr_contacts"></textarea>
+							<textarea class="sheet-long-list-box" name="attr_contacts"></textarea>
 							
 							<!-- end of content -->
 						</div>
@@ -2178,7 +2182,7 @@ Roll20 API features:
 								<div class="sheet-icon-large sheet-icon-section-notes" > </div> Quest Notes
 							</div>
 							<div class="sheet-undertext">Objectives, clues, and other reminders</div>
-							<textarea class="sheet-paragraph-box" name="attr_story_notes"></textarea>
+							<textarea class="sheet-long-list-box" name="attr_story_notes"></textarea>
 							
 							<!-- end of content -->
 						</div>

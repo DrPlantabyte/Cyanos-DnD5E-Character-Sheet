@@ -56,6 +56,7 @@ input.sheet-tab-button5:checked ~ div.sheet-tab5 {
 	font-size: 22pt;
 	font-weight: bold;
 	font-style: normal;
+	padding-bottom: 8px;
 }
 .sheet-section-content {
 	font-family: Georgia, "Charis SIL", Utopia, Charter, serif;
@@ -92,6 +93,14 @@ input.sheet-tab-button5:checked ~ div.sheet-tab5 {
 .sheet-paragraph-box {
 	width: calc(100% - 16px);
 	height: 4em;
+}
+.sheet-list-box {
+	width: calc(100% - 16px);
+	height: 8em;
+}
+.sheet-long-list-box {
+	width: calc(100% - 16px);
+	height: 16em;
 }
 .sheet-big-bold {
 	font-size: 14pt;
@@ -216,6 +225,23 @@ div:last-child.sheet-subsection-nontable-row {
 	background-size: 100% 100%
 }
 /***************************/
+
+/* spell notes hiding */
+
+.sheet-spell-paragraph-box {
+	width: calc(100% - 16px);
+	height: 4em;
+}
+.sheet-spell-info {
+	display: none;
+}
+.sheet-spell-info-button{
+	margin: 2px;
+}
+input.sheet-spell-info-button:checked ~ div.sheet-spell-info {
+	display: block;
+}
+/**********************/
 
 /* buttons */
 .sheet-roll-button { }
