@@ -2027,21 +2027,21 @@ Roll20 API features:
 												<div class="sheet-undertext">Name</div>
 												<input class="sheet-long-text-input" style="width: 12em;" type="text" name="attr_spell_name" accept="Name"/>
 											</div>
-											<div class="sheet-inline sheet-text-align-right">
-												<div class="sheet-undertext">Source/pg.</div>
-												<input style="width: 5em;" type="text" name="attr_spell_pg"/>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
+												<input style="width: 8em;" type="text" name="attr_spell_cast_time" accept="Casting Time"/>
+											</div>
+											<div class="sheet-inline">
+												<div class="sheet-undertext sheet-text-align-center">Range</div>
+												<input style="width: 4em;" type="text" name="attr_spell_range" accept="Range"/>
 											</div>
 											<div class="sheet-inline">
 												<div class="sheet-undertext sheet-text-align-center">Components</div>
 												<input style="width: 4em;" type="text" name="attr_spell_comps" value="VSM" accept="Components"/>
 											</div>
 											<div class="sheet-inline">
-												<div class="sheet-undertext sheet-text-align-center">Materials</div>
-												<input style="width: 6em;" type="text" name="attr_spell_comps_stuff" accept="Material"/>
-											</div>
-											<div class="sheet-inline">
-												<div class="sheet-undertext sheet-text-align-center">Cast Time</div>
-												<input style="width: 8em;" type="text" name="attr_spell_cast_time" accept="Casting Time"/>
+												<div class="sheet-undertext sheet-text-align-center">Duration</div>
+												<input style="width: 8em;" type="text" name="attr_spell_duration" accept="Duration"/>
 											</div>
 											<div class="sheet-inline sheet-text-align-center">
 												<div class="sheet-undertext">Ritual</div>
@@ -2053,6 +2053,21 @@ Roll20 API features:
 											</div>
 											<span class="sheet-undertext" style="vertical-align: bottom;">&#8505;</span><input class="sheet-spell-info-button" style="vertical-align: bottom;" type="checkbox"/>
 											<div class="sheet-spell-info">
+												<!-- more spell info -->
+												<div style="padding: 4px;">
+													<div class="sheet-inline sheet-text-align-center">
+														<div class="sheet-undertext">Source/pg.</div>
+														<input style="width: 7em;" type="text" name="attr_spell_pg"/>
+													</div>
+													<div class="sheet-inline">
+														<div class="sheet-undertext sheet-text-align-center">Shool of Magic</div>
+														<input style="width: 10em;" type="text" name="attr_spell_school" accept="School"/>
+													</div>
+													<div class="sheet-inline">
+														<div class="sheet-undertext sheet-text-align-left">Materials</div>
+														<input style="width: 350px;" type="text" name="attr_spell_comps_stuff" accept="Material"/>
+													</div>
+												</div>
 												<textarea class="sheet-spell-paragraph-box" name="attr_spell_desc" value="" accept="Content"></textarea>
 											</div>
 											
