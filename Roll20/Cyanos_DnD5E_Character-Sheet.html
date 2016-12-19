@@ -1583,7 +1583,7 @@ Roll20 API features:
 										<!-- start of repeated section -->
 										
 										
-										<div class="sheet-repeated-entry sheet-subsection-nontable-row" style="border: none;">
+										<div class="sheet-repeated-entry sheet-subsection-nontable-row compendium-drop-target" style="border: none;">
 											<div class="sheet-subsection-nontable-row">
 												<div class="sheet-inline">
 													<div class="sheet-undertext">Name</div>
@@ -1591,13 +1591,13 @@ Roll20 API features:
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext">Creature</div>
-													<input style="width: 9em" type="text" name="attr_pet_species"/>
+													<input style="width: 9em" type="text" name="attr_pet_species" accept="Name"/>
 												</div>
 											</div>
 											<div class="sheet-subsection-nontable-row">
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">AC</div>
-													<input class="sheet-numbox" type="number" name="attr_pet_ac" step="1" value="10" />
+													<input class="sheet-numbox" type="number" name="attr_pet_ac" step="1" value="10" accept="AC"/>
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Hit Points</div>
@@ -1609,38 +1609,38 @@ Roll20 API features:
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Movement Speed</div>
-													<input style="width: 8em" type="text" name="attr_pet_speed"/>
+													<input style="width: 8em" type="text" name="attr_pet_speed" accept="Speed"/>
 												</div>
 											</div>
 											<div class="sheet-subsection-nontable-row">
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Str</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_strength" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_strength" step="1" min="0" value="8" accept="STR" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Dex</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_dexterity" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_dexterity" step="1" min="0" value="8" accept="DEX" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Con</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_constitution" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_constitution" step="1" min="0" value="8" accept="CON" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Int</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_intelligence" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_intelligence" step="1" min="0" value="8" accept="INT" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Wis</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_wisdom" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_wisdom" step="1" min="0" value="8" accept="WIS" />
 												</div>
 												<div class="sheet-inline">
 													<div class="sheet-undertext sheet-text-align-center">Cha</div>
-													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_charisma" step="1" min="0" value="8" />
+													<input class="sheet-numbox" style="width:3.5em;" type="number" name="attr_pet_charisma" step="1" min="0" value="8" accept="CHA" />
 												</div>
 											</div>
 											<div class="sheet-subsection-nontable-row">
 												<div class="sheet-undertext">Traits, attacks, carried items, trivia, etc.</div>
-													<textarea class="sheet-paragraph-box" name="attr_pet_info"></textarea>
+													<textarea class="sheet-paragraph-box" name="attr_pet_info" accept="Content"></textarea>
 											</div>
 										</div>
 										<hr>
