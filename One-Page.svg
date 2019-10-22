@@ -15,7 +15,7 @@
    viewBox="0 0 744.09451 956.69293"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="One-Page.svg">
   <defs
      id="defs4">
@@ -72,17 +72,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="181.85292"
-     inkscape:cy="375.69339"
+     inkscape:cx="445.60375"
+     inkscape:cy="483.17362"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="mm"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="1440"
-     inkscape:window-height="837"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
      inkscape:window-maximized="1"
      inkscape:object-nodes="true"
      inkscape:snap-global="true">
@@ -188,163 +188,164 @@
        id="g11276"
        transform="translate(6.4627413e-8,-6.629925)">
       <text
-         sodipodi:linespacing="100%"
          id="text4455"
          y="191.33856"
          x="63.77953"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="191.33856"
            x="63.77953"
            id="tspan4463"
-           sodipodi:role="line">Ability Scores</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Ability Scores</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-10"
          y="240.48816"
          x="103.03938"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="240.48816"
            x="103.03938"
            id="tspan4250"
-           sodipodi:role="line">STR</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">STR</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-5"
          y="201.96849"
          x="63.77953"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan6278"
            sodipodi:role="line"
            x="63.77953"
-           y="201.96849">Mod. = (Score - 10) ÷ 2</tspan><tspan
+           y="201.96849"
+           style="font-size:10px;line-height:1">Mod. = (Score - 10) ÷ 2</tspan><tspan
            id="tspan6280"
            sodipodi:role="line"
            x="63.77953"
-           y="211.96849">Save = Mod. (+ Prof. if proficient)</tspan></text>
+           y="211.96849"
+           style="font-size:10px;line-height:1">Save = Mod. (+ Prof. if proficient)</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="103.03938"
          y="276.3779"
-         id="text4399"
-         sodipodi:linespacing="100%"><tspan
+         id="text4399"><tspan
            y="276.3779"
            x="103.03938"
            id="tspan4521"
-           sodipodi:role="line">DEX</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">DEX</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="103.03938"
          y="312.26767"
-         id="text4419"
-         sodipodi:linespacing="100%"><tspan
+         id="text4419"><tspan
            y="312.26767"
            x="103.03938"
            id="tspan4523"
-           sodipodi:role="line">CON</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">CON</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="103.03938"
          y="348.15741"
-         id="text4439"
-         sodipodi:linespacing="100%"><tspan
+         id="text4439"><tspan
            y="348.15741"
            x="103.03938"
            id="tspan4527"
-           sodipodi:role="line">INT</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">INT</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="103.03938"
          y="384.04718"
-         id="text4460"
-         sodipodi:linespacing="100%"><tspan
+         id="text4460"><tspan
            y="384.04718"
            x="103.03938"
            id="tspan4529"
-           sodipodi:role="line">WIS</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">WIS</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="103.03938"
          y="419.93695"
-         id="text4480"
-         sodipodi:linespacing="100%"><tspan
+         id="text4480"><tspan
            y="419.93695"
            x="103.03938"
            id="tspan4531"
-           sodipodi:role="line">CHA</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">CHA</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0"
          y="251.11809"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="251.11809"
            x="81.779526"
            id="tspan4551"
-           sodipodi:role="line">Strength</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Strength</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0-4"
          y="287.00781"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="287.00781"
            x="81.779526"
            id="tspan4603"
-           sodipodi:role="line">Dexterity</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Dexterity</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0-3"
          y="322.89758"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="322.89758"
            x="81.779526"
            id="tspan4605"
-           sodipodi:role="line">Constitution</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Constitution</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0-34"
          y="358.78735"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="358.78735"
            x="81.779526"
            id="tspan4607"
-           sodipodi:role="line">Intelligence</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Intelligence</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0-39"
          y="394.67712"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="394.67712"
            x="81.779526"
            id="tspan4609"
-           sodipodi:role="line">Wisdom</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Wisdom</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-29-0-2"
          y="430.56686"
          x="81.779526"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="430.56686"
            x="81.779526"
            id="tspan4611"
-           sodipodi:role="line">Charisma</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Charisma</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path6030-5"
@@ -403,15 +404,15 @@
          transform="translate(22,0)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="112.92915"
            y="251.11809"
-           id="text4176-4-29"
-           sodipodi:linespacing="100%"><tspan
+           id="text4176-4-29"><tspan
              sodipodi:role="line"
              id="tspan4397"
              x="112.92915"
-             y="251.11809">Score</tspan></text>
+             y="251.11809"
+             style="font-size:10px;line-height:1">Score</tspan></text>
         <path
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 91.669294,240.48816 42.519696,0"
@@ -420,15 +421,15 @@
            sodipodi:nodetypes="cc" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="134.18898"
            y="236.48817"
-           id="text4176-4-10-6"
-           sodipodi:linespacing="100%"><tspan
+           id="text4176-4-10-6"><tspan
              sodipodi:role="line"
              id="tspan4790"
              x="134.18898"
-             y="236.48817">: +</tspan></text>
+             y="236.48817"
+             style="font-size:20px;line-height:1">: +</tspan></text>
         <path
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 167.44883,240.48816 42.51969,0"
@@ -437,26 +438,26 @@
            sodipodi:nodetypes="cc" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="188.70868"
            y="251.11809"
-           id="text4176-4-29-9"
-           sodipodi:linespacing="100%"><tspan
+           id="text4176-4-29-9"><tspan
              sodipodi:role="line"
              id="tspan4387"
              x="188.70868"
-             y="251.11809">Mod.</tspan></text>
+             y="251.11809"
+             style="font-size:10px;line-height:1">Mod.</tspan></text>
         <text
-           sodipodi:linespacing="100%"
            id="text6282"
            y="236.48817"
            x="218.59843"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="236.48817"
              x="218.59843"
              sodipodi:role="line"
-             id="tspan6306">(+       )</tspan></text>
+             id="tspan6306"
+             style="font-size:20px;line-height:1">(+       )</tspan></text>
         <path
            sodipodi:nodetypes="cc"
            inkscape:connector-curvature="0"
@@ -464,16 +465,16 @@
            d="m 239.85828,240.48816 42.51969,0"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
-           sodipodi:linespacing="100%"
            id="text6300"
            y="251.11809"
            x="261.1181"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="251.11809"
              x="261.1181"
              sodipodi:role="line"
-             id="tspan6304">Save</tspan></text>
+             id="tspan6304"
+             style="font-size:10px;line-height:1">Save</tspan></text>
       </g>
       <use
          height="100%"
@@ -521,26 +522,26 @@
        transform="translate(-510.23624,4.0000052)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="935.43311"
          y="388.04721"
-         id="text4451"
-         sodipodi:linespacing="100%"><tspan
+         id="text4451"><tspan
            y="388.04721"
            x="935.43311"
            id="tspan4461"
-           sodipodi:role="line">Skills</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Skills</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-5-6-4"
          y="398.67709"
          x="935.43311"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="398.67709"
            x="935.43311"
            id="tspan8978"
-           sodipodi:role="line">Skill Name (Ability): + Bonus</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Skill Name (Ability): + Bonus</tspan></text>
       <g
          id="g11730"
          transform="translate(0,16)">
@@ -606,16 +607,16 @@
            d="m 318.89765,531.49602 42.51969,0"
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
-           sodipodi:linespacing="100%"
            id="text4480-2"
            y="527.49603"
            x="318.89767"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="527.49603"
              x="318.89767"
              id="tspan8980"
-             sodipodi:role="line">(       ): +</tspan></text>
+             sodipodi:role="line"
+             style="font-size:17.5px;line-height:1">(       ): +</tspan></text>
         <path
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 27.889765,531.49603 259.118125,-10e-6"
@@ -660,16 +661,16 @@
        id="g11181"
        transform="translate(-372.04725,67.779516)">
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-2"
          y="393.30707"
          x="435.82678"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="393.30707"
            x="435.82678"
            id="tspan4338"
-           sodipodi:role="line">Combat</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Combat</tspan></text>
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
@@ -720,16 +721,16 @@
          d="m 421.19687,422.56692 46.51969,0"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-1-9"
          y="420.56699"
          x="418.56693"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="420.56699"
            x="418.56693"
            id="tspan6813"
-           sodipodi:role="line">AC:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">AC:</tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 558.75593,422.56691 63.77953,0"
@@ -737,49 +738,49 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-1-9-1"
          y="420.56699"
          x="498.97638"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="420.56699"
            x="498.97638"
            id="tspan6839"
-           sodipodi:role="line">HP:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">HP:</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-7"
          y="433.19687"
          x="525.60626"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="433.19687"
            x="525.60626"
            id="tspan6859"
-           sodipodi:role="line">Temp.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Temp.</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-7-0"
          y="433.19687"
          x="590.75586"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="433.19687"
            x="590.75586"
            id="tspan6887"
-           sodipodi:role="line">Current</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Current</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-7-02"
          y="433.19687"
          x="653.16534"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="433.19687"
            x="653.16534"
            id="tspan6889"
-           sodipodi:role="line">Max</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Max</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -799,41 +800,41 @@
          d="m 531.49608,457.0866 59.77953,0"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-1-9-1-9"
          y="450.4567"
          x="680.315"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="450.4567"
            x="680.315"
            id="tspan9167"
-           sodipodi:role="line">Death Saves</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Death Saves</tspan></text>
       <g
          transform="translate(27.259811,-253.748)"
          id="g6731">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="653.05518"
            y="714.83459"
-           id="text4176-4-6-3-7-7-1"
-           sodipodi:linespacing="100%"><tspan
+           id="text4176-4-6-3-7-7-1"><tspan
              sodipodi:role="line"
              id="tspan6939"
              x="653.05518"
-             y="714.83459">Successes:</tspan></text>
+             y="714.83459"
+             style="font-size:10px;line-height:1">Successes:</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="653.05518"
            y="727.46454"
-           id="text4176-4-6-3-7-7-1-1"
-           sodipodi:linespacing="100%"><tspan
+           id="text4176-4-6-3-7-7-1-1"><tspan
              sodipodi:role="line"
              id="tspan6959"
              x="653.05518"
-             y="727.46454">Failures:</tspan></text>
+             y="727.46454"
+             style="font-size:10px;line-height:1">Failures:</tspan></text>
         <path
            style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 659.05516,708.86217 7.97245,0 0,7.97244 -7.97245,0 z"
@@ -866,16 +867,16 @@
            inkscape:connector-curvature="0" />
       </g>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-1-9-1-9-4"
          y="457.08664"
          x="393.3071"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="457.08664"
            x="393.3071"
            id="tspan7001"
-           sodipodi:role="line">HD:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">HD:</tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 425.19686,457.0866 95.6693,0"
@@ -883,27 +884,27 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-2"
          y="467.71658"
          x="425.19687"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="467.71658"
            x="425.19687"
            id="tspan7031"
-           sodipodi:role="line">Current</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Current</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3-7-4"
          y="467.71658"
          x="531.49603"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="467.71658"
            x="531.49603"
            id="tspan7035"
-           sodipodi:role="line">Max</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Max</tspan></text>
       <g
          transform="translate(3.620535e-6,-116.92912)"
          id="g6763">
@@ -914,38 +915,38 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cc" />
         <text
-           sodipodi:linespacing="100%"
            id="text6706"
            y="627.16534"
            x="393.3071"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              id="tspan6708"
              sodipodi:role="line"
              x="393.3071"
-             y="627.16534">Weapon/Spell</tspan></text>
+             y="627.16534"
+             style="font-size:10px;line-height:1">Weapon/Spell</tspan></text>
         <text
-           sodipodi:linespacing="100%"
            id="text6710"
            y="627.16534"
            x="570.01575"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="627.16534"
              x="570.01575"
              id="tspan6712"
-             sodipodi:role="line">Atk. Mod.</tspan></text>
+             sodipodi:role="line"
+             style="font-size:10px;line-height:1">Atk. Mod.</tspan></text>
         <text
-           sodipodi:linespacing="100%"
            id="text6714"
            y="614.5354"
            x="635.79523"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="614.5354"
              x="635.79523"
              id="tspan6716"
-             sodipodi:role="line">On hit:</tspan></text>
+             sodipodi:role="line"
+             style="font-size:10px;line-height:1">On hit:</tspan></text>
         <path
            sodipodi:nodetypes="cc"
            inkscape:connector-curvature="0"
@@ -980,16 +981,16 @@
        id="g11094"
        transform="translate(-10.629918,14.629951)">
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-963-29"
          y="750.09442"
          x="435.82678"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="750.09442"
            x="435.82678"
            id="tspan9606"
-           sodipodi:role="line">Magic</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Magic</tspan></text>
       <g
          id="g11741"
          transform="translate(0,6)">
@@ -1007,26 +1008,26 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="490.97644"
          y="773.98425"
-         id="text9975"
-         sodipodi:linespacing="100%"><tspan
+         id="text9975"><tspan
            y="773.98425"
            x="490.97644"
            id="tspan7619"
-           sodipodi:role="line">Spell Attack:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Spell Attack:</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text9979"
          y="773.98425"
          x="637.79535"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="773.98425"
            x="637.79535"
            id="tspan7613"
-           sodipodi:role="line">Save DC:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Save DC:</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1034,16 +1035,16 @@
          d="m 492.9764,775.98421 70.40945,0"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text10024"
          y="786.6142"
          x="525.49609"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="786.6142"
            x="525.49609"
            id="tspan4877"
-           sodipodi:role="line">Mod.+Prof.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Mod.+Prof.</tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 639.7953,775.98421 72.40945,0"
@@ -1052,26 +1053,26 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="676.315"
          y="786.6142"
-         id="text10032"
-         sodipodi:linespacing="100%"><tspan
+         id="text10032"><tspan
            y="786.6142"
            x="676.315"
            id="tspan4879"
-           sodipodi:role="line">8+Prof.+Mod.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">8+Prof.+Mod.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="553.38586"
          y="805.8739"
-         id="text10394"
-         sodipodi:linespacing="100%"><tspan
+         id="text10394"><tspan
            y="805.8739"
            x="553.38586"
            id="tspan10525"
-           sodipodi:role="line">Spells Known/Prep'd:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Spells Known/Prep'd:</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1080,15 +1081,15 @@
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="478.34647"
          y="829.13385"
-         id="text10394-1"
-         sodipodi:linespacing="100%"><tspan
+         id="text10394-1"><tspan
            y="829.13385"
            x="478.34647"
            id="tspan7639"
-           sodipodi:role="line">Spell Slots:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Spell Slots:</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1096,27 +1097,27 @@
          d="m 480.97641,831.13377 252.48818,5e-5"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text10024-9"
          y="841.76373"
          x="467.71655"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            sodipodi:role="line"
            id="tspan11678"
            x="467.71655"
-           y="841.76373">Lvl:    1       2       3       4       5       6       7       8       9</tspan></text>
+           y="841.76373"
+           style="font-size:10px;line-height:1">Lvl:    1       2       3       4       5       6       7       8       9</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="674.315"
          y="805.8739"
-         id="text10394-7"
-         sodipodi:linespacing="100%"><tspan
+         id="text10394-7"><tspan
            y="805.8739"
            x="674.315"
            id="tspan7705"
-           sodipodi:role="line">Cantrips:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Cantrips:</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1125,15 +1126,15 @@
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="393.3071"
          y="882.28345"
-         id="text10394-1-1"
-         sodipodi:linespacing="100%"><tspan
+         id="text10394-1-1"><tspan
            y="882.28345"
            x="393.3071"
            id="tspan7725"
-           sodipodi:role="line">Spells:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Spells:</tspan></text>
       <g
          transform="translate(-7.9017968e-7,21.259837)"
          id="g7750">
@@ -1199,16 +1200,16 @@
          y="0"
          x="0" />
       <text
-         sodipodi:linespacing="100%"
          id="text7768"
          y="861.02356"
          x="478.34647"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="861.02356"
            x="478.34647"
            id="tspan7780"
-           sodipodi:role="line">Used:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:15px;line-height:1">Used:</tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 480.97641,863.0235 252.48818,5e-5"
@@ -1216,26 +1217,25 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <text
-         sodipodi:linespacing="100%"
          id="text10024-9-7"
          y="873.6535"
          x="467.71655"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="873.6535"
            x="467.71655"
            sodipodi:role="line"
-           id="tspan11678-3">Lvl:    1       2       3       4       5       6       7       8       9</tspan></text>
+           id="tspan11678-3"
+           style="font-size:10px;line-height:1">Lvl:    1       2       3       4       5       6       7       8       9</tspan></text>
     </g>
     <g
        id="g11574"
        transform="translate(0,-2)">
       <text
-         sodipodi:linespacing="100%"
          id="text4176"
          y="127.55902"
          x="191.33858"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"
            y="127.55902"
@@ -1243,82 +1243,82 @@
            id="tspan4178"
            sodipodi:role="line">Character Name</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6"
          y="127.55902"
          x="372.04727"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="127.55902"
            x="372.04727"
            id="tspan4322"
-           sodipodi:role="line">Class &amp; Level</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Class &amp; Level</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-3"
          y="148.81886"
          x="10.629926"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="148.81886"
            x="10.629926"
            id="tspan4255"
-           sodipodi:role="line">☐ Inspiration</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">☐ Inspiration</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-8"
          y="127.55902"
          x="10.629919"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="127.55902"
            x="10.629919"
            id="tspan4326"
-           sodipodi:role="line">Player Name</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Player Name</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-68"
          y="148.81886"
          x="313.93182"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="148.81886"
            x="320.52362"
            id="tspan4280"
-           sodipodi:role="line">Prof. Bonus: </tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Prof. Bonus: </tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-96"
          y="127.55901"
          x="595.27563"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="127.55901"
            x="595.27563"
            id="tspan4636"
-           sodipodi:role="line">Exp. Points</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Exp. Points</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="494.64053"
          y="148.81886"
-         id="text4350"
-         sodipodi:linespacing="100%"><tspan
+         id="text4350"><tspan
            y="148.81886"
            x="501.23233"
            id="tspan4282"
-           sodipodi:role="line">Initiative: </tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Initiative: </tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4354"
          y="148.81886"
          x="643.45941"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="148.81886"
            x="650.05121"
            id="tspan4284"
-           sodipodi:role="line">Speed: </tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Speed: </tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1362,75 +1362,75 @@
          d="m 648.42523,148.81887 85.03937,0"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-6-3"
          y="159.44879"
          x="525.7818"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="159.44879"
            x="525.7818"
            id="tspan4325"
-           sodipodi:role="line">Dex Mod.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Dex Mod.</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-96-4"
          y="159.44879"
          x="690.94489"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="159.44879"
            x="690.94489"
            id="tspan4345"
-           sodipodi:role="line">Distance/Round</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Distance/Round</tspan></text>
     </g>
     <g
        id="g11519"
        transform="translate(1132.9422,100.22177)">
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-87"
          y="84.48687"
          x="-707.74536"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="84.48687"
            x="-707.74536"
            id="tspan4634"
-           sodipodi:role="line">Identity</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Identity</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-2"
          y="127.00657"
          x="-743.63513"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="127.00657"
            x="-743.63513"
            id="tspan6253"
-           sodipodi:role="line">Race</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Race</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4176-2-0"
          y="127.00655"
          x="-573.55634"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan7959"
            sodipodi:role="line"
            x="-573.55634"
-           y="127.00655">Age</tspan></text>
+           y="127.00655"
+           style="font-size:10px;line-height:1">Age</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-743.63513"
          y="190.7861"
-         id="text6275"
-         sodipodi:linespacing="100%"><tspan
+         id="text6275"><tspan
            y="190.7861"
            x="-743.63513"
            id="tspan6281"
-           sodipodi:role="line">Background</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Background</tspan></text>
       <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m -743.6351,116.37663 163.44882,0"
@@ -1462,15 +1462,15 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-520.40674"
          y="127.00655"
-         id="text7955"
-         sodipodi:linespacing="100%"><tspan
+         id="text7955"><tspan
            sodipodi:role="line"
            id="tspan7957"
            x="-520.40674"
-           y="127.00655">Alignment</tspan></text>
+           y="127.00655"
+           style="font-size:10px;line-height:1">Alignment</tspan></text>
       <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m -573.55635,116.37663 46.51968,0"
@@ -1478,16 +1478,16 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <text
-         sodipodi:linespacing="100%"
          id="text7967"
          y="222.67587"
          x="-743.63513"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="222.67587"
            x="-743.63513"
            id="tspan7985"
-           sodipodi:role="line">Ideal</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Ideal</tspan></text>
       <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m -743.6351,212.04593 163.44882,0"
@@ -1502,37 +1502,37 @@
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-573.55634"
          y="190.7861"
-         id="text7975"
-         sodipodi:linespacing="100%"><tspan
+         id="text7975"><tspan
            y="190.7861"
            x="-573.55634"
            id="tspan7983"
-           sodipodi:role="line">Personality</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Personality</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text7979"
          y="222.67584"
          x="-573.55634"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="222.67584"
            x="-573.55634"
            id="tspan7987"
-           sodipodi:role="line">Flaw</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Flaw</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-743.63513"
          y="254.56564"
-         id="text7989"
-         sodipodi:linespacing="100%"><tspan
+         id="text7989"><tspan
            y="254.56564"
            x="-743.63513"
            id="tspan7995"
-           sodipodi:role="line">Bonds</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Bonds</tspan></text>
       <path
          sodipodi:nodetypes="cc"
          inkscape:connector-curvature="0"
@@ -1540,16 +1540,16 @@
          d="m -743.6351,243.93569 333.52757,0"
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text7997"
          y="158.89636"
          x="-743.63513"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan8003"
            sodipodi:role="line"
            x="-743.63513"
-           y="158.89636">Appearance (e.g. skin, hair, eyes, scars, tattoos, etc.)</tspan></text>
+           y="158.89636"
+           style="font-size:10px;line-height:1">Appearance (e.g. skin, hair, eyes, scars, tattoos, etc.)</tspan></text>
       <path
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          d="m -743.6351,148.26639 333.52757,0"
@@ -1561,16 +1561,16 @@
        id="g11137"
        transform="translate(361.41733,-102.29922)">
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-7"
          y="644.42517"
          x="63.77953"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="644.42517"
            x="63.77953"
            id="tspan9046"
-           sodipodi:role="line">Proficiencies &amp; Features</tspan></text>
+           sodipodi:role="line"
+           style="font-size:22.5px;line-height:1">Proficiencies &amp; Features</tspan></text>
       <path
          inkscape:transform-center-y="0.46368157"
          inkscape:transform-center-x="0.92228302"
@@ -1589,16 +1589,16 @@
          style="fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
       <text
-         sodipodi:linespacing="100%"
          id="text4525-6"
          y="655.05511"
          x="63.77953"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="655.05511"
            x="63.77953"
            id="tspan9048"
-           sodipodi:role="line">Languages, proficiencies, racial traits, and class features</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Languages, proficiencies, racial traits, and class features</tspan></text>
       <g
          transform="translate(-372.04726,-201.96848)"
          id="g7750-6">
@@ -1682,14 +1682,16 @@
          d="m 861.02365,1358.6298 337.52755,0 0,295.6378 -337.52755,0 z"
          style="opacity:1;fill:#ebebeb;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
-         sodipodi:linespacing="100%"
          id="text4176-4-963-5-37"
          y="1290.8503"
          x="903.54333"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            sodipodi:role="line"
-           id="tspan5816">Equipment</tspan></text>
+           id="tspan5816"
+           x="903.54333"
+           y="1290.8503"
+           style="font-size:22.5px;line-height:1">Equipment</tspan></text>
       <g
          transform="translate(444.4567,126.92929)"
          id="g9291">
@@ -1834,15 +1836,15 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="865.02362"
          y="1371.2598"
-         id="text4520-2-7-5"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-5"><tspan
            id="tspan9350-8"
            sodipodi:role="line"
            x="865.02362"
-           y="1371.2598">Belt (bonus action to draw item)</tspan></text>
+           y="1371.2598"
+           style="font-size:10px;line-height:1">Belt (bonus action to draw item)</tspan></text>
       <use
          height="100%"
          width="100%"
@@ -1853,15 +1855,15 @@
          x="0" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="865.02362"
          y="1435.0393"
-         id="text4520-2-7-3-5"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-3-5"><tspan
            id="tspan10353-4"
            sodipodi:role="line"
            x="865.02362"
-           y="1435.0393">Backpack (1d4 rounds to draw item)</tspan></text>
+           y="1435.0393"
+           style="font-size:10px;line-height:1">Backpack (1d4 rounds to draw item)</tspan></text>
       <g
          transform="translate(467.71655,574.01573)"
          id="g7750-8-6-5">
@@ -1896,15 +1898,15 @@
          x="0" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="865.02362"
          y="1520.0787"
-         id="text4520-2-7-6-9"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-6-9"><tspan
            id="tspan10575-0"
            sodipodi:role="line"
            x="865.02362"
-           y="1520.0787">Pack Straps (action to draw item, Str req.)</tspan></text>
+           y="1520.0787"
+           style="font-size:10px;line-height:1">Pack Straps (action to draw item, Str req.)</tspan></text>
       <g
          transform="translate(467.71655,659.0551)"
          id="g7750-8-6-9">
@@ -1930,60 +1932,60 @@
          y="0"
          x="0" />
       <text
-         sodipodi:linespacing="100%"
          id="text10838"
          y="1539.3385"
          x="1024.4724"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="1539.3385"
            x="1024.4724"
            id="tspan10842"
-           sodipodi:role="line">11 Str.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">11 Str.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="1192.5513"
          y="1539.3385"
-         id="text10844"
-         sodipodi:linespacing="100%"><tspan
+         id="text10844"><tspan
            y="1539.3385"
            x="1192.5513"
            id="tspan10848"
-           sodipodi:role="line">13 Str.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">13 Str.</tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text10850"
          y="1560.5984"
          x="1192.5513"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="1560.5984"
            x="1192.5513"
            id="tspan10854"
-           sodipodi:role="line">17 Str.</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">17 Str.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#949494;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="1024.4724"
          y="1560.5984"
-         id="text10856"
-         sodipodi:linespacing="100%"><tspan
+         id="text10856"><tspan
            y="1560.5984"
            x="1024.4724"
            sodipodi:role="line"
-           id="tspan10858">17 Str.</tspan></text>
+           id="tspan10858"
+           style="font-size:10px;line-height:1">17 Str.</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="865.02362"
          y="1583.8582"
-         id="text4520-2-7-9-56-6"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-9-56-6"><tspan
            y="1583.8582"
            x="865.02362"
            id="tspan10393-3"
-           sodipodi:role="line">Trinkets</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Trinkets</tspan></text>
       <g
          transform="translate(467.71655,722.83462)"
          id="g7750-8-6-5-8">
@@ -2018,15 +2020,15 @@
          x="0" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="861.02356"
          y="1324.7401"
-         id="text4520-2-7-9-5-5"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-9-5-5"><tspan
            y="1324.7401"
            x="861.02356"
            id="tspan11046"
-           sodipodi:role="line">Money: </tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Money: </tspan></text>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 897.54326,1326.7401 293.00794,0"
@@ -2035,15 +2037,15 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:100%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="861.02356"
          y="1346"
-         id="text4520-2-7-9-6"
-         sodipodi:linespacing="100%"><tspan
+         id="text4520-2-7-9-6"><tspan
            y="1346"
            x="861.02356"
            id="tspan11048"
-           sodipodi:role="line">Quiver:</tspan></text>
+           sodipodi:role="line"
+           style="font-size:10px;line-height:1">Quiver:</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="rect4917-8-3"

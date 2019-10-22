@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="Pg1-B.svg">
+   sodipodi:docname="Pg1-B_no-weight.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -164,8 +164,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0851143"
-     inkscape:cx="508.40063"
-     inkscape:cy="644.84339"
+     inkscape:cx="434.67568"
+     inkscape:cy="866.01825"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -198,7 +198,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1105,76 +1105,6 @@
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74802"
-       y="982.5827"
-       id="text4176-4-963-4"><tspan
-         sodipodi:role="line"
-         id="tspan10184"
-         x="265.74802"
-         y="982.5827"
-         style="font-size:12.5px;line-height:1">Each equipment compartment has a limit to the number of items it can hold, the</tspan><tspan
-         sodipodi:role="line"
-         id="tspan10186"
-         x="265.74802"
-         y="995.0827"
-         style="font-size:12.5px;line-height:1">total weight it can carry, and may have a minimum Strength score requirement as</tspan><tspan
-         sodipodi:role="line"
-         id="tspan10188"
-         x="265.74802"
-         y="1007.5827"
-         style="font-size:12.5px;line-height:1">well. Violating any of these conditions will cause you to be</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="967.32281"
-       id="text4176-4-963-2"><tspan
-         sodipodi:role="line"
-         id="tspan4276"
-         x="265.74805"
-         y="967.32281"
-         style="font-size:17.5px;line-height:1">Encumbrance</tspan></text>
-    <text
-       id="text4341"
-       y="1007.5788"
-       x="595.54492"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan4355"
-         x="595.54492"
-         y="1007.5788"
-         style="font-size:12.5px;line-height:1">encumbered.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="1029.1023"
-       id="text4176-4-963-4-2"><tspan
-         sodipodi:role="line"
-         id="tspan14616"
-         x="265.74805"
-         y="1029.1023"
-         style="font-size:12.5px;line-height:1">                      Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
-         sodipodi:role="line"
-         id="tspan14618"
-         x="265.74805"
-         y="1041.6023"
-         style="font-size:12.5px;line-height:1">skill checks, attack rolls, and saving throws.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="1029.1023"
-       id="text4415"><tspan
-         sodipodi:role="line"
-         id="tspan4486"
-         x="265.74805"
-         y="1029.1023"
-         style="font-size:12.5px;line-height:1">Encumbered:</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="314.06702"
        y="446.46317"
@@ -1240,19 +1170,14 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4996"
-         x="563.38586"
-         y="476.72153"
-         style="font-size:10px;line-height:1">6 items, 40 lb. max total weight</tspan><tspan
-         sodipodi:role="line"
          id="tspan4998"
          x="563.38586"
-         y="486.72153"
+         y="476.72153"
          style="font-size:10px;line-height:1">Withdraw item in 1d4 rounds</tspan><tspan
          sodipodi:role="line"
          id="tspan5000"
          x="563.38586"
-         y="496.72153"
+         y="486.72153"
          style="font-size:10px;line-height:1"> </tspan></text>
     <text
        xml:space="preserve"
@@ -1279,17 +1204,17 @@
          sodipodi:role="line"
          id="tspan10293"
          x="314.06702"
-         y="286.38446"
-         style="font-size:10px;line-height:1">max total weight (lb.) = Str</tspan><tspan
+         y="281.84714"
+         style="font-size:10px;line-height:1" /><tspan
          sodipodi:role="line"
          id="tspan10295"
          x="314.06702"
-         y="296.38446"
+         y="286.38446"
          style="font-size:10px;line-height:1">Withdraw item as bonus action</tspan><tspan
          sodipodi:role="line"
          id="tspan10297"
          x="314.06702"
-         y="306.38446"
+         y="296.38446"
          style="font-size:10px;line-height:1"> </tspan></text>
     <text
        xml:space="preserve"
@@ -1336,19 +1261,14 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan5125"
-         x="563.38586"
-         y="291.0079"
-         style="font-size:10px;line-height:1">Each location has its own limits</tspan><tspan
-         sodipodi:role="line"
          id="tspan5127"
          x="563.38586"
-         y="301.0079"
+         y="291.0079"
          style="font-size:10px;line-height:1">Withdraw item as an action</tspan><tspan
          sodipodi:role="line"
          id="tspan5129"
          x="563.38586"
-         y="311.0079"
+         y="301.0079"
          style="font-size:10px;line-height:1"> </tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1676,7 +1596,7 @@
          id="tspan10194"
          x="520.86615"
          y="337.52765"
-         style="font-size:10px;line-height:1">Pouch: 1 item up to 5 lb., req. 11 Str</tspan></text>
+         style="font-size:10px;line-height:1">Pouch</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 520.86616,326.89774 H 718.83467"
@@ -1693,7 +1613,7 @@
          id="tspan8574"
          x="520.86615"
          y="369.41742"
-         style="font-size:10px;line-height:1">Top: 1 item up to 10 lb., req. 13 Str</tspan></text>
+         style="font-size:10px;line-height:1">Top</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path5087"
@@ -1710,7 +1630,7 @@
          id="tspan8576"
          x="520.86615"
          y="401.30719"
-         style="font-size:10px;line-height:1">Left side: 1 item up to 10 lb., req. 17 Str</tspan></text>
+         style="font-size:10px;line-height:1">Left side</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 520.86616,390.67727 H 718.83467"
@@ -1733,7 +1653,7 @@
          id="tspan8578"
          x="520.86615"
          y="433.19696"
-         style="font-size:10px;line-height:1">Right side: 1 item up to 10 lb., req. 17 Str</tspan></text>
+         style="font-size:10px;line-height:1">Right side</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2748,5 +2668,70 @@
          x="731.4646"
          y="1046.3622"
          style="font-size:10px;line-height:1">Page 1-B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00000095px;line-height:100%;font-family:Utopia;-inkscape-font-specification:'Utopia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74802"
+       y="988.20782"
+       id="text4176-4-963-4-1"><tspan
+         style="stroke-width:0.99999994px"
+         sodipodi:role="line"
+         id="tspan1577"
+         x="265.74802"
+         y="988.20782">Wearing a backpack with more than 10 kinds of items in it, or carrying a particularly </tspan><tspan
+         style="stroke-width:0.99999994px"
+         sodipodi:role="line"
+         id="tspan1579"
+         x="265.74802"
+         y="1000.2078">large or heavy load, will cause you to be</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="967.32288"
+       id="text4176-4-963-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan4276-2"
+         x="265.74805"
+         y="967.32288"
+         style="font-size:17.5px;line-height:1;stroke-width:0.99999994px">Encumbrance</tspan></text>
+    <text
+       id="text4341-7"
+       y="1000.0789"
+       x="483.04492"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan4355-2"
+         x="483.04492"
+         y="1000.0789"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">encumbered.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="1025.3524"
+       id="text4176-4-963-4-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan4870"
+         x="265.74805"
+         y="1025.3524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">                       Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4872"
+         x="265.74805"
+         y="1037.8524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">skill checks, attack rolls, and Dexterity saving throws.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="1025.3524"
+       id="text4415-6"><tspan
+         sodipodi:role="line"
+         id="tspan4486-1"
+         x="265.74805"
+         y="1025.3524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">Encumbered:</tspan></text>
   </g>
 </svg>

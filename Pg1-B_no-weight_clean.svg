@@ -16,16 +16,16 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="Pg1-B.svg">
+   sodipodi:docname="Pg1-B_no-weight_clean.svg">
   <defs
      id="defs4">
     <linearGradient
        inkscape:collect="always"
        id="Scroll-Fill">
       <stop
-         style="stop-color:#d7d7d7;stop-opacity:1"
          offset="0"
-         id="stop6961" />
+         id="stop6961"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop4705"
          offset="0.15000001"
@@ -35,9 +35,9 @@
          offset="0.89999998"
          id="stop4707" />
       <stop
-         style="stop-color:#d7d7d7;stop-opacity:1"
          offset="1"
-         id="stop6963" />
+         id="stop6963"
+         style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        gradientTransform="translate(-3e-6,-79.724469)"
@@ -53,17 +53,17 @@
        inkscape:collect="always"
        id="Roll-Fill">
       <stop
-         style="stop-color:#c3c3c3;stop-opacity:1"
          offset="0"
-         id="stop6935" />
+         id="stop6935"
+         style="stop-color:#ffffff;stop-opacity:1" />
       <stop
          id="stop6941"
          offset="0.34999999"
          style="stop-color:#ffffff;stop-opacity:1" />
       <stop
-         style="stop-color:#ababab;stop-opacity:1"
          offset="1"
-         id="stop6937" />
+         id="stop6937"
+         style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -164,18 +164,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0851143"
-     inkscape:cx="508.40063"
-     inkscape:cy="644.84339"
+     inkscape:cx="322.24513"
+     inkscape:cy="718.56835"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      units="mm"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="960"
-     inkscape:window-height="1023"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
      inkscape:window-x="0"
      inkscape:window-y="30"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:object-nodes="true"
      showguides="true"
@@ -198,7 +198,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -233,8 +233,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 0"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        id="path7312-6"
@@ -481,12 +480,12 @@
     <path
        inkscape:connector-curvature="0"
        id="path7312-3"
-       d="m 265.79636,834.4489 c 10.62992,-53.1496 -10.62993,-255.11813 0,-308.26773 l 63.7312,0 149.14011,0 c -10.62992,53.1496 10.62992,255.11813 0,308.26773 l -149.14011,0 z"
+       d="m 265.79636,834.4489 c 10.62992,-53.1496 -10.62993,-255.11813 0,-308.26773 h 63.7312 149.14011 c -10.62992,53.1496 10.62992,255.11813 0,308.26773 H 329.52756 Z"
        style="display:inline;fill:url(#linearGradient6707);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 251.16643,526.18117 242.13116,0"
+       d="M 251.16643,526.18117 H 493.29759"
        id="path7266-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -527,7 +526,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7298-4"
-       d="m 251.16643,834.44886 242.13116,0"
+       d="M 251.16643,834.44886 H 493.29759"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -565,14 +564,14 @@
     <path
        sodipodi:nodetypes="ccccccc"
        style="display:inline;fill:url(#linearGradient6699);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 265.79636,504.92131 c 10.62992,-53.1496 -10.62993,-132.87405 0,-186.02365 l 63.7312,0 149.14011,0 c -10.62992,53.1496 10.62992,132.87405 0,186.02365 l -149.14011,0 z"
+       d="m 265.79636,504.92131 c 10.62992,-53.1496 -10.62993,-132.87405 0,-186.02365 h 63.7312 149.14011 c -10.62992,53.1496 10.62992,132.87405 0,186.02365 H 329.52756 Z"
        id="path7683"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7685"
-       d="m 251.16643,318.89766 242.13116,0"
+       d="M 251.16643,318.89766 H 493.29759"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -609,7 +608,7 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 251.16643,504.92131 242.13116,0"
+       d="M 251.16643,504.92131 H 493.29759"
        id="path7697"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -649,12 +648,12 @@
     <path
        inkscape:connector-curvature="0"
        id="path7709"
-       d="m 265.79636,297.63783 c 10.62992,-53.1496 -10.62993,-106.29923 0,-159.44883 l 63.7312,0 149.14011,0 c -10.62992,53.1496 10.62992,106.29923 0,159.44883 l -149.14011,0 z"
+       d="m 265.79636,297.63783 c 10.62992,-53.1496 -10.62993,-106.29923 0,-159.44883 h 63.7312 149.14011 c -10.62992,53.1496 10.62992,106.29923 0,159.44883 H 329.52756 Z"
        style="display:inline;fill:url(#linearGradient6691);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 251.16643,138.189 242.13116,0"
+       d="M 251.16643,138.189 H 493.29759"
        id="path7711"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -695,7 +694,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7723"
-       d="m 251.16643,297.63783 242.13116,0"
+       d="M 251.16643,297.63783 H 493.29759"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -733,21 +732,21 @@
     <path
        sodipodi:nodetypes="ccccccc"
        style="display:inline;fill:url(#linearGradient6683);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 265.79636,116.92918 c 10.62992,-53.149605 -10.62993,-53.149635 0,-106.299238 l 63.7312,0 149.14011,0 c -10.62992,53.149603 10.62992,53.149633 0,106.299238 l -149.14011,0 z"
+       d="m 265.79636,116.92918 c 10.62992,-53.149605 -10.62993,-53.149635 0,-106.299238 h 63.7312 149.14011 c -10.62992,53.149603 10.62992,53.149633 0,106.299238 H 329.52756 Z"
        id="path7735"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7737"
-       d="m 251.16643,10.629942 242.13116,0"
+       d="M 251.16643,10.629942 H 493.29759"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
        y="0"
        inkscape:tiled-clone-of="#path7826-0-9"
        xlink:href="#path7826-0-9"
-       transform="translate(248.80941,3.0000001e-7)"
+       transform="translate(248.80941)"
        id="use6645"
        width="100%"
        height="100%" />
@@ -777,7 +776,7 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 251.16643,116.92918 242.13116,0"
+       d="M 251.16643,116.92918 H 493.29759"
        id="path7749"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -817,12 +816,12 @@
     <path
        inkscape:connector-curvature="0"
        id="path7822-8"
-       d="m 16.986952,946.06299 c 10.62992,-53.1496 -10.6299278,-393.30704 0,-446.45668 l 63.731202,0 149.140116,0 c -10.62992,53.14964 10.62992,393.30708 0,446.45668 l -149.140116,0 z"
+       d="m 16.986952,946.06299 c 10.62992,-53.1496 -10.6299278,-393.30704 0,-446.45668 H 80.718154 229.85827 c -10.62992,53.14964 10.62992,393.30708 0,446.45668 H 80.718154 Z"
        style="display:inline;fill:url(#linearGradient6675);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2.3570239,499.60631 242.1311661,0"
+       d="M 2.3570239,499.60631 H 244.48819"
        id="path7824-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -863,7 +862,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7836-5"
-       d="m 2.3570236,946.06299 242.1311664,0"
+       d="M 2.3570236,946.06299 H 244.48819"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -901,18 +900,18 @@
     <path
        inkscape:connector-curvature="0"
        id="path7822-8-9"
-       d="m 16.986942,228.54336 c 10.629919,-53.1496 -10.629924,-164.763779 5e-6,-217.913418 l 63.731201,0 149.140122,0 c -10.62992,53.149639 10.62992,164.763818 0,217.913418 l -149.140127,0 z"
+       d="M 16.986942,228.54336 C 27.616861,175.39376 6.357018,63.779581 16.986947,10.629942 H 80.718148 229.85827 c -10.62992,53.149639 10.62992,164.763818 0,217.913418 H 80.718143 Z"
        style="display:inline;fill:url(#linearGradient6583);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2.357018,10.629942 242.131172,0"
+       d="M 2.357018,10.629942 H 244.48819"
        id="path7824-9-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:url(#linearGradient6939);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 12.986937,5.314942 220.871343,0 0,5.315 0,5.314896 -220.871343,0 0,-5.314896 z"
+       d="M 12.986937,5.314942 H 233.85828 v 5.315 5.314896 H 12.986937 v -5.314896 z"
        id="path7826-0-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc"
@@ -950,7 +949,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path7836-5-5"
-       d="m 2.3570133,228.54336 242.1311767,0"
+       d="M 2.3570133,228.54336 H 244.48819"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -988,14 +987,14 @@
     <path
        sodipodi:nodetypes="ccccccc"
        style="display:inline;fill:url(#linearGradient6667);fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 16.986932,478.34647 c 10.629919,-53.1496 -10.6299187,-175.39363 10e-6,-228.54327 l 63.731201,0 149.140127,0 c -10.62992,53.14964 10.62992,175.39367 0,228.54327 l -149.140137,0 z"
+       d="M 16.986932,478.34647 C 27.616851,425.19687 6.3570133,302.95284 16.986942,249.8032 H 80.718143 229.85827 c -10.62992,53.14964 10.62992,175.39367 0,228.54327 H 80.718133 Z"
        id="path10042"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path10044"
-       d="m 2.3570133,249.8032 242.1311767,0"
+       d="M 2.3570133,249.8032 H 244.48819"
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
@@ -1032,7 +1031,7 @@
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 2.3570039,478.34647 242.1311861,0"
+       d="M 2.3570039,478.34647 H 244.48819"
        id="path10056"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1084,7 +1083,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-95.669248)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 33.695619,627.03586 c 1.591937,-0.92876 3.069322,-0.77963 4.478898,0"
@@ -1103,76 +1103,6 @@
        id="rect5131"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74802"
-       y="982.5827"
-       id="text4176-4-963-4"><tspan
-         sodipodi:role="line"
-         id="tspan10184"
-         x="265.74802"
-         y="982.5827"
-         style="font-size:12.5px;line-height:1">Each equipment compartment has a limit to the number of items it can hold, the</tspan><tspan
-         sodipodi:role="line"
-         id="tspan10186"
-         x="265.74802"
-         y="995.0827"
-         style="font-size:12.5px;line-height:1">total weight it can carry, and may have a minimum Strength score requirement as</tspan><tspan
-         sodipodi:role="line"
-         id="tspan10188"
-         x="265.74802"
-         y="1007.5827"
-         style="font-size:12.5px;line-height:1">well. Violating any of these conditions will cause you to be</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="967.32281"
-       id="text4176-4-963-2"><tspan
-         sodipodi:role="line"
-         id="tspan4276"
-         x="265.74805"
-         y="967.32281"
-         style="font-size:17.5px;line-height:1">Encumbrance</tspan></text>
-    <text
-       id="text4341"
-       y="1007.5788"
-       x="595.54492"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan4355"
-         x="595.54492"
-         y="1007.5788"
-         style="font-size:12.5px;line-height:1">encumbered.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="1029.1023"
-       id="text4176-4-963-4-2"><tspan
-         sodipodi:role="line"
-         id="tspan14616"
-         x="265.74805"
-         y="1029.1023"
-         style="font-size:12.5px;line-height:1">                      Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
-         sodipodi:role="line"
-         id="tspan14618"
-         x="265.74805"
-         y="1041.6023"
-         style="font-size:12.5px;line-height:1">skill checks, attack rolls, and saving throws.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="265.74805"
-       y="1029.1023"
-       id="text4415"><tspan
-         sodipodi:role="line"
-         id="tspan4486"
-         x="265.74805"
-         y="1029.1023"
-         style="font-size:12.5px;line-height:1">Encumbered:</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1240,19 +1170,14 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4996"
-         x="563.38586"
-         y="476.72153"
-         style="font-size:10px;line-height:1">6 items, 40 lb. max total weight</tspan><tspan
-         sodipodi:role="line"
          id="tspan4998"
          x="563.38586"
-         y="486.72153"
+         y="476.72153"
          style="font-size:10px;line-height:1">Withdraw item in 1d4 rounds</tspan><tspan
          sodipodi:role="line"
          id="tspan5000"
          x="563.38586"
-         y="496.72153"
+         y="486.72153"
          style="font-size:10px;line-height:1"> </tspan></text>
     <text
        xml:space="preserve"
@@ -1279,17 +1204,17 @@
          sodipodi:role="line"
          id="tspan10293"
          x="314.06702"
-         y="286.38446"
-         style="font-size:10px;line-height:1">max total weight (lb.) = Str</tspan><tspan
+         y="281.84714"
+         style="font-size:10px;line-height:1" /><tspan
          sodipodi:role="line"
          id="tspan10295"
          x="314.06702"
-         y="296.38446"
+         y="286.38446"
          style="font-size:10px;line-height:1">Withdraw item as bonus action</tspan><tspan
          sodipodi:role="line"
          id="tspan10297"
          x="314.06702"
-         y="306.38446"
+         y="296.38446"
          style="font-size:10px;line-height:1"> </tspan></text>
     <text
        xml:space="preserve"
@@ -1336,19 +1261,14 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan5125"
-         x="563.38586"
-         y="291.0079"
-         style="font-size:10px;line-height:1">Each location has its own limits</tspan><tspan
-         sodipodi:role="line"
          id="tspan5127"
          x="563.38586"
-         y="301.0079"
+         y="291.0079"
          style="font-size:10px;line-height:1">Withdraw item as an action</tspan><tspan
          sodipodi:role="line"
          id="tspan5129"
          x="563.38586"
-         y="311.0079"
+         y="301.0079"
          style="font-size:10px;line-height:1"> </tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1676,7 +1596,7 @@
          id="tspan10194"
          x="520.86615"
          y="337.52765"
-         style="font-size:10px;line-height:1">Pouch: 1 item up to 5 lb., req. 11 Str</tspan></text>
+         style="font-size:10px;line-height:1">Pouch</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 520.86616,326.89774 H 718.83467"
@@ -1693,7 +1613,7 @@
          id="tspan8574"
          x="520.86615"
          y="369.41742"
-         style="font-size:10px;line-height:1">Top: 1 item up to 10 lb., req. 13 Str</tspan></text>
+         style="font-size:10px;line-height:1">Top</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path5087"
@@ -1710,7 +1630,7 @@
          id="tspan8576"
          x="520.86615"
          y="401.30719"
-         style="font-size:10px;line-height:1">Left side: 1 item up to 10 lb., req. 17 Str</tspan></text>
+         style="font-size:10px;line-height:1">Left side</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 520.86616,390.67727 H 718.83467"
@@ -1733,7 +1653,7 @@
          id="tspan8578"
          x="520.86615"
          y="433.19696"
-         style="font-size:10px;line-height:1">Right side: 1 item up to 10 lb., req. 17 Str</tspan></text>
+         style="font-size:10px;line-height:1">Right side</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2748,5 +2668,70 @@
          x="731.4646"
          y="1046.3622"
          style="font-size:10px;line-height:1">Page 1-B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00000095px;line-height:100%;font-family:Utopia;-inkscape-font-specification:'Utopia, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74802"
+       y="988.20782"
+       id="text4176-4-963-4-1"><tspan
+         style="stroke-width:0.99999994px"
+         sodipodi:role="line"
+         id="tspan1577"
+         x="265.74802"
+         y="988.20782">Wearing a backpack with more than 10 kinds of items in it, or carrying a particularly </tspan><tspan
+         style="stroke-width:0.99999994px"
+         sodipodi:role="line"
+         id="tspan1579"
+         x="265.74802"
+         y="1000.2078">large or heavy load, will cause you to be</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="967.32288"
+       id="text4176-4-963-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan4276-2"
+         x="265.74805"
+         y="967.32288"
+         style="font-size:17.5px;line-height:1;stroke-width:0.99999994px">Encumbrance</tspan></text>
+    <text
+       id="text4341-7"
+       y="1000.0789"
+       x="483.04492"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan4355-2"
+         x="483.04492"
+         y="1000.0789"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">encumbered.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Charis SIL, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="1025.3524"
+       id="text4176-4-963-4-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan4870"
+         x="265.74805"
+         y="1025.3524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">                       Your speed decreases by 10 ft. and you suffer disadvantage on all</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4872"
+         x="265.74805"
+         y="1037.8524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">skill checks, attack rolls, and Dexterity saving throws.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:0%;font-family:'Charis SIL';-inkscape-font-specification:'Utopia, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="265.74805"
+       y="1025.3524"
+       id="text4415-6"><tspan
+         sodipodi:role="line"
+         id="tspan4486-1"
+         x="265.74805"
+         y="1025.3524"
+         style="font-size:12.49999905px;line-height:1;stroke-width:0.99999994px">Encumbered:</tspan></text>
   </g>
 </svg>
