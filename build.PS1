@@ -1,7 +1,7 @@
 # This script requires Inkscape and PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 $inkscape = 'C:\Program Files\Inkscape\inkscape.exe'
 $pdftk = 'pdftk.exe'
-$libre_office = 'C:\Program Files\LibreOffice\bin\soffice.exe'
+$libre_office = 'C:\Program Files\LibreOffice\program\soffice.exe'
 
 # $PSScriptRoot is an automatic variable set to the current file's/module's directory
 cd $PSScriptRoot
