@@ -3,6 +3,7 @@
 # This script requires Inkscape and pdfunite
 inkscape='inkscape'
 pdfunite='pdfunite'
+libre_office='soffice'
 
 cd "`dirname "$0"`"
 mkdir -p dist
@@ -43,5 +44,8 @@ $inkscape Pg2-A_clean.svg --export-area-page --export-background "white" --expor
 $inkscape Pg2-B_clean.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_pg2B_clean.png
 $inkscape Half-Page.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_minimal.png
 $inkscape One-Page.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_condensed.png
+
+echo "Exporting form-fillable character sheet..."
+$libre_office --headless --convert-to pdf:draw_pdf_Export --outdir ./dist ./DrCyanos_DnD-Character-Sheet_Fillable.odt
 
 echo "...done"

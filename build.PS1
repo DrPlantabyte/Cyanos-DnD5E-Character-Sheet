@@ -1,6 +1,7 @@
 # This script requires Inkscape and PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 $inkscape = 'C:\Program Files\Inkscape\inkscape.exe'
 $pdftk = 'pdftk.exe'
+$libre_office = 'C:\Program Files\LibreOffice\bin\soffice.exe'
 
 # $PSScriptRoot is an automatic variable set to the current file's/module's directory
 cd $PSScriptRoot
@@ -44,5 +45,8 @@ echo "Generating preview images..."
 & $inkscape Pg2-B_clean.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_pg2B_clean.png | Out-Null
 & $inkscape Half-Page.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_minimal.png | Out-Null
 & $inkscape One-Page.svg --export-area-page --export-background "white" --export-dpi 40 --export-png dist/preview_condensed.png | Out-Null
+
+echo "Exporting form-fillable character sheet..."
+& $libre_office --headless --convert-to pdf:draw_pdf_Export --outdir ./dist ./DrCyanos_DnD-Character-Sheet_Fillable.odt
 
 echo "...done"
